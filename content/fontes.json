@@ -1,0 +1,16 @@
+{
+  "_leia": "Cada atributo das fichas tem: v = valor, s = situação, f = fontes, nota = observação. Situações: 'material' (consta nos materiais da disciplina), 'externa' (não consta nos materiais; valor de referência técnica padrão, a conferir), 'divergente' (materiais discordam entre si ou da literatura; ver nota), 'lacuna' (não consta e não foi preenchido).",
+  "documentos": {
+    "slides-fios": { "titulo": "Suturas & Fios de suturas (slides da disciplina)", "arquivo": "Fios de Sutura.pdf" },
+    "slides-instr": { "titulo": "Instrumentação Cirúrgica e Materiais Cirúrgicos (slides da disciplina)", "arquivo": "Instrumentação Cirúrgica e Material Cirurgico.pptx.pdf" },
+    "instr-cirurgica": { "titulo": "Instrumentação Cirúrgica (folha de mesa, 2 páginas)", "arquivo": "INSTRUMENTAÇÃO CIRÚRGICA.pdf" },
+    "resumo-instr": { "titulo": "Resumo Instrumentação Cirúrgica", "arquivo": "Resumo Instrumentação Cirúrgica.pdf" },
+    "apostila-sutura": { "titulo": "Apostila Prática: Sutura (monitoria 2025-2026)", "arquivo": "BTCA - Apostila Prática Sutura.pdf" },
+    "apostila-mesa": { "titulo": "Apostila Prática: Mesa Cirúrgica (monitoria 2025-2026)", "arquivo": "BTCA - Apostila Prática Mesa Cirúrgica.pdf" },
+    "resumo": { "titulo": "BTCA resumo", "arquivo": "BTCA resumo.pdf" },
+    "roteiro": { "titulo": "BTCA roteiro (prova prática UC4)", "arquivo": "BTCA roteiro.pdf" },
+    "ext": { "titulo": "Referência técnica padrão (Ethicon Wound Closure Manual; Goffi – Técnica Cirúrgica; bulas dos fabricantes)", "nota": "Valores preenchidos a partir de conhecimento de referência; precisam ser conferidos nessas obras antes de serem tratados como definitivos." }
+  },
+  "regra": "As apostilas dizem: em divergência entre o material e a aula, vale a fala do professor. Por isso, quando há divergência, a resposta principal segue os slides do professor e a alternativa aparece como nota.",
+  "bancoDeProvas": "NÃO ENCONTRADO na pasta. Prioridade por frequência ainda neutra (2) em todos os itens."
+}

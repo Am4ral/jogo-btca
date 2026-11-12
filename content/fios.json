@@ -1,0 +1,1812 @@
+{
+  "_niveis": [
+    "muito_baixa",
+    "baixa",
+    "moderada",
+    "alta",
+    "muito_alta"
+  ],
+  "_rankingResistencia": {
+    "fonte": "slides-fios p8",
+    "inabsorviveis": [
+      "aco",
+      "poliester",
+      "nylon",
+      "polipropileno",
+      "seda",
+      "algodao"
+    ],
+    "absorviveis": [
+      "vicryl",
+      "dexon",
+      "pds",
+      "poligliconato",
+      "categute-cromado",
+      "categute-simples"
+    ],
+    "nota": "Ordem do mais resistente para o menos resistente. Linho e Monocryl não aparecem nessa tabela."
+  },
+  "itens": [
+    {
+      "id": "categute-simples",
+      "nome": "Categute simples",
+      "comerciais": [
+        "Catgut simples"
+      ],
+      "bloco": "F1",
+      "origem": {
+        "v": "natural",
+        "detalhe": "animal",
+        "s": "material",
+        "f": [
+          "slides-fios p5",
+          "slides-fios p14"
+        ]
+      },
+      "composicao": {
+        "v": "Colágeno da submucosa do intestino delgado de ovinos ou da serosa bovina",
+        "s": "material",
+        "f": [
+          "slides-fios p14"
+        ]
+      },
+      "absorcao": {
+        "v": "absorvivel",
+        "s": "material",
+        "f": [
+          "slides-fios p14"
+        ]
+      },
+      "mecanismoAbsorcao": {
+        "v": "proteolise_fagocitose",
+        "s": "externa",
+        "f": [
+          "slides-fios p4",
+          "ext"
+        ],
+        "nota": "Os slides dizem apenas que os absorvíveis são reabsorvidos 'por fagocitose ou hidrólise'. Para o categute (natural) o mecanismo é degradação enzimática (proteólise) com fagocitose; os sintéticos são hidrolisados."
+      },
+      "tempoAbsorcao": {
+        "v": "≈ 8 dias (slides)",
+        "s": "divergente",
+        "f": [
+          "slides-fios p14",
+          "ext"
+        ],
+        "nota": "Slides: 'absorção em 8 dias'. Na literatura, 7–10 dias corresponde à perda da resistência tênsil; a absorção completa da massa leva cerca de 70 dias. Para a prova, use o valor dos slides."
+      },
+      "resistenciaTensil": {
+        "v": "Perdida em cerca de 7–10 dias",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "estrutura": {
+        "v": "mono",
+        "s": "divergente",
+        "f": [
+          "slides-fios p14",
+          "ext"
+        ],
+        "nota": "Slides: MONOFILAMENTAR. Tecnicamente o categute é formado por fitas de colágeno torcidas e polidas, que se comportam como monofilamento. O jogo aceita 'monofilamentar' como resposta.",
+        "aceitaTambem": [
+          "multi_torcido"
+        ]
+      },
+      "reacaoTecidual": {
+        "v": "alta",
+        "s": "material",
+        "f": [
+          "slides-fios p14"
+        ],
+        "nota": "'Grande reação inflamatória'."
+      },
+      "capilaridade": {
+        "v": null,
+        "s": "lacuna",
+        "f": [],
+        "nota": "Não consta nos materiais."
+      },
+      "memoria": {
+        "v": null,
+        "s": "lacuna",
+        "f": []
+      },
+      "manuseio": {
+        "v": "baixa",
+        "s": "material",
+        "f": [
+          "slides-fios p14"
+        ],
+        "nota": "'Ressecam facilmente – quebradiços'."
+      },
+      "segurancaNo": {
+        "v": null,
+        "s": "lacuna",
+        "f": []
+      },
+      "indicacoes": {
+        "v": [
+          "Cirurgias gastrintestinais",
+          "Cirurgias urológicas",
+          "Cirurgias ginecológicas"
+        ],
+        "s": "material",
+        "f": [
+          "slides-fios p14"
+        ],
+        "extra": [
+          "Ligadura de vasos superficiais e tecidos de cicatrização rápida (ext)"
+        ]
+      },
+      "limitacoes": {
+        "v": [
+          "Grande reação inflamatória",
+          "Resseca e fica quebradiço",
+          "Menor resistência entre os absorvíveis"
+        ],
+        "s": "material",
+        "f": [
+          "slides-fios p14",
+          "slides-fios p8"
+        ]
+      },
+      "diferencial": "Categute SEM sais de crômio: absorção mais rápida (≈ 8 dias, segundo os slides) e é o menos resistente dos absorvíveis.",
+      "confundeCom": [
+        "categute-cromado"
+      ],
+      "imagens": [
+        {
+          "src": "img/fios/categute-embalagem.png",
+          "tipo": "embalagem",
+          "qualidade": "ilustrativa",
+          "fonte": "slides-fios p14"
+        },
+        {
+          "src": "img/fios/categute-fio.png",
+          "tipo": "fio",
+          "qualidade": "ilustrativa",
+          "fonte": "slides-fios p14"
+        }
+      ],
+      "prioridadeProva": 2
+    },
+    {
+      "id": "categute-cromado",
+      "nome": "Categute cromado",
+      "comerciais": [
+        "Catgut cromado"
+      ],
+      "bloco": "F1",
+      "origem": {
+        "v": "natural",
+        "detalhe": "animal",
+        "s": "material",
+        "f": [
+          "slides-fios p5",
+          "slides-fios p14"
+        ]
+      },
+      "composicao": {
+        "v": "Colágeno animal (mesma origem do simples) tratado com sais de crômio",
+        "s": "material",
+        "f": [
+          "slides-fios p14"
+        ]
+      },
+      "absorcao": {
+        "v": "absorvivel",
+        "s": "material",
+        "f": [
+          "slides-fios p14"
+        ]
+      },
+      "mecanismoAbsorcao": {
+        "v": "proteolise_fagocitose",
+        "s": "externa",
+        "f": [
+          "slides-fios p4",
+          "ext"
+        ],
+        "nota": "Ver nota do categute simples."
+      },
+      "tempoAbsorcao": {
+        "v": "≈ 20 dias (slides)",
+        "s": "divergente",
+        "f": [
+          "slides-fios p14",
+          "ext"
+        ],
+        "nota": "Slides: 'absorção em 20 dias'. Na literatura, 14–21 dias corresponde à perda da resistência; absorção completa em cerca de 90 dias. Para a prova, use o valor dos slides."
+      },
+      "resistenciaTensil": {
+        "v": "Mantida por mais tempo que o simples (≈ 14–21 dias)",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "estrutura": {
+        "v": "mono",
+        "s": "divergente",
+        "f": [
+          "slides-fios p14",
+          "ext"
+        ],
+        "nota": "Mesma observação do categute simples.",
+        "aceitaTambem": [
+          "multi_torcido"
+        ]
+      },
+      "reacaoTecidual": {
+        "v": "alta",
+        "s": "divergente",
+        "f": [
+          "slides-fios p14",
+          "ext"
+        ],
+        "nota": "Os slides atribuem 'grande reação inflamatória' ao categute em geral. A literatura indica que o cromo REDUZ a reação em relação ao simples, mas ela continua maior que a dos sintéticos."
+      },
+      "capilaridade": {
+        "v": null,
+        "s": "lacuna",
+        "f": []
+      },
+      "memoria": {
+        "v": null,
+        "s": "lacuna",
+        "f": []
+      },
+      "manuseio": {
+        "v": "baixa",
+        "s": "material",
+        "f": [
+          "slides-fios p14"
+        ],
+        "nota": "'Ressecam facilmente – quebradiços'."
+      },
+      "segurancaNo": {
+        "v": null,
+        "s": "lacuna",
+        "f": []
+      },
+      "indicacoes": {
+        "v": [
+          "Cirurgias gastrintestinais",
+          "Cirurgias urológicas",
+          "Cirurgias ginecológicas"
+        ],
+        "s": "material",
+        "f": [
+          "slides-fios p14"
+        ]
+      },
+      "limitacoes": {
+        "v": [
+          "Reação inflamatória maior que a dos sintéticos",
+          "Resseca e fica quebradiço"
+        ],
+        "s": "material",
+        "f": [
+          "slides-fios p14"
+        ]
+      },
+      "diferencial": "Os sais de crômio retardam a absorção (≈ 20 dias contra ≈ 8 do simples) e o tornam mais resistente que o simples.",
+      "confundeCom": [
+        "categute-simples"
+      ],
+      "imagens": [
+        {
+          "src": "img/fios/categute-embalagem.png",
+          "tipo": "embalagem",
+          "qualidade": "ilustrativa",
+          "fonte": "slides-fios p14",
+          "nota": "A embalagem da foto é de categute CROMADO."
+        }
+      ],
+      "prioridadeProva": 2
+    },
+    {
+      "id": "vicryl",
+      "nome": "Poliglactina 910",
+      "comerciais": [
+        "Vicryl"
+      ],
+      "bloco": "F2",
+      "origem": {
+        "v": "sintetico",
+        "s": "material",
+        "f": [
+          "slides-fios p5"
+        ]
+      },
+      "composicao": {
+        "v": "Copolímero de ácido glicólico e ácido láctico (poliglactina 910)",
+        "s": "divergente",
+        "f": [
+          "slides-fios p16",
+          "ext"
+        ],
+        "nota": "Os slides chamam de 'ácido poligaláctico, semelhante ao poliglicólico'. O nome técnico é poliglactina 910 (90% glicolídeo, 10% lactídeo)."
+      },
+      "absorcao": {
+        "v": "absorvivel",
+        "s": "material",
+        "f": [
+          "slides-fios p16"
+        ]
+      },
+      "mecanismoAbsorcao": {
+        "v": "hidrolise",
+        "s": "material",
+        "f": [
+          "slides-fios p16"
+        ]
+      },
+      "tempoAbsorcao": {
+        "v": "≈ 60 dias",
+        "s": "material",
+        "f": [
+          "slides-fios p16"
+        ],
+        "nota": "Literatura: 56–70 dias."
+      },
+      "resistenciaTensil": {
+        "v": "Meia-vida ≈ 20 dias (cerca de 50% da resistência em 3 semanas)",
+        "s": "material",
+        "f": [
+          "slides-fios p16"
+        ]
+      },
+      "estrutura": {
+        "v": "multi_trancado",
+        "s": "material",
+        "f": [
+          "slides-fios p16",
+          "ext"
+        ],
+        "nota": "Slides: MULTIFILAMENTAR. 'Trançado' vem da literatura."
+      },
+      "reacaoTecidual": {
+        "v": "baixa",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "capilaridade": {
+        "v": "alta",
+        "s": "material",
+        "f": [
+          "slides-fios p10"
+        ],
+        "nota": "Deduzido da regra dos slides: multifilamentares têm maior capilaridade."
+      },
+      "memoria": {
+        "v": "baixa",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "manuseio": {
+        "v": "alta",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "segurancaNo": {
+        "v": "alta",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "indicacoes": {
+        "v": [
+          "Cirurgias gastrintestinais",
+          "Cirurgias urológicas",
+          "Cirurgias ginecológicas"
+        ],
+        "s": "material",
+        "f": [
+          "slides-fios p16"
+        ],
+        "extra": [
+          "Subcutâneo e ligaduras (ext)"
+        ]
+      },
+      "limitacoes": {
+        "v": [
+          "Multifilamentar: maior capilaridade e potencial de infecção",
+          "Não serve para suporte prolongado"
+        ],
+        "s": "material",
+        "f": [
+          "slides-fios p9",
+          "slides-fios p10"
+        ]
+      },
+      "diferencial": "Absorvível sintético MULTIFILAMENTAR, o mais resistente dos absorvíveis (slides p8). Diferente do Dexon por ser copolímero com ácido láctico.",
+      "confundeCom": [
+        "dexon",
+        "monocryl"
+      ],
+      "imagens": [],
+      "prioridadeProva": 2
+    },
+    {
+      "id": "dexon",
+      "nome": "Ácido poliglicólico",
+      "comerciais": [
+        "Dexon"
+      ],
+      "bloco": "F2",
+      "origem": {
+        "v": "sintetico",
+        "s": "material",
+        "f": [
+          "slides-fios p5",
+          "slides-fios p15"
+        ]
+      },
+      "composicao": {
+        "v": "Polímero do ácido glicólico (homopolímero)",
+        "s": "material",
+        "f": [
+          "slides-fios p15"
+        ]
+      },
+      "absorcao": {
+        "v": "absorvivel",
+        "s": "material",
+        "f": [
+          "slides-fios p15"
+        ]
+      },
+      "mecanismoAbsorcao": {
+        "v": "hidrolise",
+        "s": "material",
+        "f": [
+          "slides-fios p15"
+        ]
+      },
+      "tempoAbsorcao": {
+        "v": "60–90 dias",
+        "s": "material",
+        "f": [
+          "slides-fios p15"
+        ]
+      },
+      "resistenciaTensil": {
+        "v": null,
+        "s": "lacuna",
+        "f": [],
+        "nota": "Os slides não informam meia-vida do Dexon."
+      },
+      "estrutura": {
+        "v": "multi_trancado",
+        "s": "material",
+        "f": [
+          "slides-fios p15",
+          "ext"
+        ]
+      },
+      "reacaoTecidual": {
+        "v": "baixa",
+        "s": "material",
+        "f": [
+          "slides-fios p15"
+        ],
+        "nota": "'Pouca reação inflamatória'."
+      },
+      "capilaridade": {
+        "v": "alta",
+        "s": "material",
+        "f": [
+          "slides-fios p10"
+        ],
+        "nota": "Deduzido da regra dos multifilamentares."
+      },
+      "memoria": {
+        "v": "baixa",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "manuseio": {
+        "v": "alta",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "segurancaNo": {
+        "v": "alta",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "indicacoes": {
+        "v": [
+          "Sutura de músculo",
+          "Sutura de fáscia"
+        ],
+        "s": "material",
+        "f": [
+          "slides-fios p15"
+        ]
+      },
+      "limitacoes": {
+        "v": [
+          "Multifilamentar: maior capilaridade e potencial de infecção"
+        ],
+        "s": "material",
+        "f": [
+          "slides-fios p9"
+        ]
+      },
+      "diferencial": "Homopolímero de ácido glicólico; absorção 60–90 dias; indicado nos slides para músculo e fáscia. Segundo dos absorvíveis em resistência, logo abaixo do Vicryl.",
+      "confundeCom": [
+        "vicryl"
+      ],
+      "imagens": [
+        {
+          "src": "img/fios/pga-embalagem.png",
+          "tipo": "embalagem",
+          "qualidade": "ilustrativa",
+          "fonte": "slides-fios p13"
+        }
+      ],
+      "prioridadeProva": 2
+    },
+    {
+      "id": "monocryl",
+      "nome": "Poliglecaprone 25",
+      "comerciais": [
+        "Monocryl"
+      ],
+      "bloco": "F2",
+      "origem": {
+        "v": "sintetico",
+        "s": "material",
+        "f": [
+          "slides-fios p18"
+        ]
+      },
+      "composicao": {
+        "v": "Copolímero de glicolídeo e ε-caprolactona (poliglecaprone 25)",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "absorcao": {
+        "v": "absorvivel",
+        "s": "material",
+        "f": [
+          "slides-fios p18"
+        ]
+      },
+      "mecanismoAbsorcao": {
+        "v": "hidrolise",
+        "s": "material",
+        "f": [
+          "slides-fios p18"
+        ]
+      },
+      "tempoAbsorcao": {
+        "v": "≈ 90 dias",
+        "s": "material",
+        "f": [
+          "slides-fios p18"
+        ],
+        "nota": "Literatura: 91–119 dias."
+      },
+      "resistenciaTensil": {
+        "v": "Moderada; meia-vida ≈ 2 semanas",
+        "s": "material",
+        "f": [
+          "slides-fios p18"
+        ]
+      },
+      "estrutura": {
+        "v": "mono",
+        "s": "material",
+        "f": [
+          "slides-fios p18"
+        ]
+      },
+      "reacaoTecidual": {
+        "v": "baixa",
+        "s": "material",
+        "f": [
+          "slides-fios p18"
+        ]
+      },
+      "capilaridade": {
+        "v": "baixa",
+        "s": "material",
+        "f": [
+          "slides-fios p10"
+        ],
+        "nota": "Regra dos monofilamentares."
+      },
+      "memoria": {
+        "v": "moderada",
+        "s": "externa",
+        "f": [
+          "ext"
+        ],
+        "nota": "É um monofilamento conhecido por ser maleável (memória menor que a do PDS)."
+      },
+      "manuseio": {
+        "v": "alta",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "segurancaNo": {
+        "v": "moderada",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "indicacoes": {
+        "v": [
+          "Cirurgias plásticas",
+          "Suturas intradérmicas"
+        ],
+        "s": "material",
+        "f": [
+          "slides-fios p18"
+        ]
+      },
+      "limitacoes": {
+        "v": [
+          "Perde resistência rápido: não serve onde é preciso suporte prolongado"
+        ],
+        "s": "material",
+        "f": [
+          "slides-fios p18"
+        ]
+      },
+      "diferencial": "Monofilamentar absorvível de perda RÁPIDA de resistência (meia-vida ≈ 2 semanas): fio da sutura intradérmica e da cirurgia plástica.",
+      "confundeCom": [
+        "pds",
+        "vicryl"
+      ],
+      "imagens": [
+        {
+          "src": "img/fios/poliglecaprone-embalagem.png",
+          "tipo": "embalagem",
+          "qualidade": "ilustrativa",
+          "fonte": "slides-fios p13"
+        }
+      ],
+      "prioridadeProva": 2
+    },
+    {
+      "id": "pds",
+      "nome": "Polidioxanona",
+      "comerciais": [
+        "PDS"
+      ],
+      "bloco": "F2",
+      "origem": {
+        "v": "sintetico",
+        "s": "material",
+        "f": [
+          "slides-fios p17"
+        ]
+      },
+      "composicao": {
+        "v": "Polímero de p-dioxanona (poliéster)",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "absorcao": {
+        "v": "absorvivel",
+        "s": "material",
+        "f": [
+          "slides-fios p17"
+        ]
+      },
+      "mecanismoAbsorcao": {
+        "v": "hidrolise",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "tempoAbsorcao": {
+        "v": "Lenta (≈ 180–210 dias)",
+        "s": "material",
+        "f": [
+          "slides-fios p17",
+          "ext"
+        ],
+        "nota": "Slides: 'absorção lenta'. O número de dias vem da literatura."
+      },
+      "resistenciaTensil": {
+        "v": "Alta; meia-vida ≈ 5 semanas",
+        "s": "material",
+        "f": [
+          "slides-fios p17"
+        ]
+      },
+      "estrutura": {
+        "v": "mono",
+        "s": "material",
+        "f": [
+          "slides-fios p17"
+        ]
+      },
+      "reacaoTecidual": {
+        "v": "baixa",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "capilaridade": {
+        "v": "baixa",
+        "s": "material",
+        "f": [
+          "slides-fios p10"
+        ],
+        "nota": "Regra dos monofilamentares."
+      },
+      "memoria": {
+        "v": "alta",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "manuseio": {
+        "v": "moderada",
+        "s": "externa",
+        "f": [
+          "ext"
+        ],
+        "nota": "Mais rígido que o Monocryl."
+      },
+      "segurancaNo": {
+        "v": "moderada",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "indicacoes": {
+        "v": [
+          "Suturas de tendões",
+          "Fechamento da parede abdominal"
+        ],
+        "s": "material",
+        "f": [
+          "slides-fios p17"
+        ]
+      },
+      "limitacoes": {
+        "v": [
+          "Memória alta: exige mais nós",
+          "Mais rígido de manusear"
+        ],
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "diferencial": "Monofilamentar absorvível de absorção LENTA e resistência prolongada (meia-vida ≈ 5 semanas): parede abdominal e tendões.",
+      "confundeCom": [
+        "monocryl",
+        "poligliconato"
+      ],
+      "imagens": [],
+      "prioridadeProva": 2
+    },
+    {
+      "id": "poligliconato",
+      "nome": "Poligliconato",
+      "comerciais": [
+        "Maxon"
+      ],
+      "bloco": "F2",
+      "origem": {
+        "v": "sintetico",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "composicao": {
+        "v": "Copolímero de ácido glicólico e carbonato de trimetileno",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "absorcao": {
+        "v": "absorvivel",
+        "s": "material",
+        "f": [
+          "slides-fios p8"
+        ],
+        "nota": "Aparece apenas na tabela de resistência dos slides, na coluna dos absorvíveis."
+      },
+      "mecanismoAbsorcao": {
+        "v": "hidrolise",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "tempoAbsorcao": {
+        "v": "≈ 180 dias",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "resistenciaTensil": {
+        "v": "Prolongada (semelhante ao PDS)",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "estrutura": {
+        "v": "mono",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "reacaoTecidual": {
+        "v": "baixa",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "capilaridade": {
+        "v": "baixa",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "memoria": {
+        "v": "moderada",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "manuseio": {
+        "v": "moderada",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "segurancaNo": {
+        "v": "moderada",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "indicacoes": {
+        "v": [
+          "Fechamento de fáscia e parede abdominal",
+          "Tecidos que precisam de suporte prolongado"
+        ],
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "limitacoes": {
+        "v": [
+          "Pouco citado nos materiais"
+        ],
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "diferencial": "Monofilamentar absorvível de absorção lenta, 'primo' do PDS. Nos slides, fica abaixo do PDS em resistência e acima dos categutes.",
+      "confundeCom": [
+        "pds"
+      ],
+      "imagens": [],
+      "alerta": "Item quase ausente dos materiais: só aparece na tabela de resistência (slides p8). Todo o resto vem de referência externa e precisa ser conferido.",
+      "prioridadeProva": 2
+    },
+    {
+      "id": "seda",
+      "nome": "Seda",
+      "comerciais": [
+        "Seda",
+        "Silk"
+      ],
+      "bloco": "F3",
+      "origem": {
+        "v": "natural",
+        "detalhe": "animal",
+        "s": "material",
+        "f": [
+          "slides-fios p5",
+          "slides-fios p19"
+        ]
+      },
+      "composicao": {
+        "v": "Fibroína produzida pelo bicho-da-seda",
+        "s": "material",
+        "f": [
+          "slides-fios p19",
+          "ext"
+        ]
+      },
+      "absorcao": {
+        "v": "inabsorvivel",
+        "s": "divergente",
+        "f": [
+          "slides-fios p19",
+          "ext"
+        ],
+        "nota": "Classificada como inabsorvível, mas perde a resistência ao longo do tempo (slides: 'ao longo dos anos') e pode ser degradada lentamente (≈ 2 anos)."
+      },
+      "mecanismoAbsorcao": {
+        "v": null,
+        "s": "lacuna",
+        "f": [],
+        "nota": "Não se aplica (inabsorvível)."
+      },
+      "tempoAbsorcao": {
+        "v": null,
+        "s": "lacuna",
+        "f": []
+      },
+      "resistenciaTensil": {
+        "v": "Perde a resistência tênsil ao longo dos anos",
+        "s": "material",
+        "f": [
+          "slides-fios p19"
+        ]
+      },
+      "estrutura": {
+        "v": "multi_trancado",
+        "s": "material",
+        "f": [
+          "slides-fios p19",
+          "ext"
+        ]
+      },
+      "reacaoTecidual": {
+        "v": "alta",
+        "s": "externa",
+        "f": [
+          "ext"
+        ],
+        "nota": "Entre as maiores dos inabsorvíveis."
+      },
+      "capilaridade": {
+        "v": "alta",
+        "s": "material",
+        "f": [
+          "slides-fios p10"
+        ],
+        "nota": "Os slides citam a seda como exemplo de alta capilaridade."
+      },
+      "memoria": {
+        "v": "baixa",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "manuseio": {
+        "v": "muito_alta",
+        "s": "externa",
+        "f": [
+          "ext"
+        ],
+        "nota": "Considerado o padrão de bom manuseio."
+      },
+      "segurancaNo": {
+        "v": "alta",
+        "s": "material",
+        "f": [
+          "slides-fios p19"
+        ],
+        "nota": "'Produz nós firmes'."
+      },
+      "indicacoes": {
+        "v": [
+          "Cirurgias gastrintestinais"
+        ],
+        "s": "material",
+        "f": [
+          "slides-fios p19"
+        ],
+        "extra": [
+          "Ligaduras e fixação de drenos (ext)"
+        ]
+      },
+      "limitacoes": {
+        "v": [
+          "Multifilamentar: alta capilaridade e maior risco de infecção",
+          "Reação tecidual alta para um inabsorvível"
+        ],
+        "s": "material",
+        "f": [
+          "slides-fios p9",
+          "slides-fios p10"
+        ]
+      },
+      "diferencial": "Natural animal, multifilamentar, com nó muito firme e ótimo manuseio. Ao contrário do algodão e do linho, é de origem ANIMAL.",
+      "confundeCom": [
+        "algodao",
+        "linho",
+        "nylon"
+      ],
+      "imagens": [],
+      "prioridadeProva": 2
+    },
+    {
+      "id": "algodao",
+      "nome": "Algodão",
+      "comerciais": [
+        "Algodão"
+      ],
+      "bloco": "F3",
+      "origem": {
+        "v": "natural",
+        "detalhe": "vegetal",
+        "s": "material",
+        "f": [
+          "slides-fios p5",
+          "slides-fios p20"
+        ]
+      },
+      "composicao": {
+        "v": "Fibras de algodão (celulose)",
+        "s": "material",
+        "f": [
+          "slides-fios p20"
+        ]
+      },
+      "absorcao": {
+        "v": "inabsorvivel",
+        "s": "material",
+        "f": [
+          "slides-fios p20"
+        ]
+      },
+      "mecanismoAbsorcao": {
+        "v": null,
+        "s": "lacuna",
+        "f": [],
+        "nota": "Não se aplica."
+      },
+      "tempoAbsorcao": {
+        "v": null,
+        "s": "lacuna",
+        "f": []
+      },
+      "resistenciaTensil": {
+        "v": "A menor entre os inabsorvíveis",
+        "s": "material",
+        "f": [
+          "slides-fios p8"
+        ]
+      },
+      "estrutura": {
+        "v": "multi_torcido",
+        "s": "material",
+        "f": [
+          "slides-fios p20",
+          "ext"
+        ],
+        "nota": "Slides: MULTIFILAMENTAR; 'torcido' vem da literatura."
+      },
+      "reacaoTecidual": {
+        "v": "alta",
+        "s": "material",
+        "f": [
+          "slides-fios p20"
+        ],
+        "nota": "Pode formar granuloma de corpo estranho."
+      },
+      "capilaridade": {
+        "v": "alta",
+        "s": "material",
+        "f": [
+          "slides-fios p10"
+        ]
+      },
+      "memoria": {
+        "v": "baixa",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "manuseio": {
+        "v": "alta",
+        "s": "material",
+        "f": [
+          "slides-fios p20"
+        ],
+        "nota": "'Maleável'."
+      },
+      "segurancaNo": {
+        "v": "alta",
+        "s": "material",
+        "f": [
+          "slides-fios p20"
+        ],
+        "nota": "'Nó firme'."
+      },
+      "indicacoes": {
+        "v": [
+          "Ligaduras"
+        ],
+        "s": "externa",
+        "f": [
+          "ext"
+        ],
+        "nota": "Os slides não citam indicações para o algodão."
+      },
+      "limitacoes": {
+        "v": [
+          "Granuloma de corpo estranho",
+          "Menos resistente dos inabsorvíveis",
+          "Alta capilaridade"
+        ],
+        "s": "material",
+        "f": [
+          "slides-fios p20",
+          "slides-fios p8",
+          "slides-fios p10"
+        ]
+      },
+      "diferencial": "Natural VEGETAL, multifilamentar, maleável e de nó firme, mas é o menos resistente dos inabsorvíveis e forma granuloma de corpo estranho.",
+      "confundeCom": [
+        "seda",
+        "linho"
+      ],
+      "imagens": [],
+      "prioridadeProva": 2
+    },
+    {
+      "id": "linho",
+      "nome": "Linho",
+      "comerciais": [
+        "Linho"
+      ],
+      "bloco": "F3",
+      "origem": {
+        "v": "natural",
+        "detalhe": "vegetal",
+        "s": "material",
+        "f": [
+          "slides-fios p5"
+        ]
+      },
+      "composicao": {
+        "v": "Fibras de linho (celulose)",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "absorcao": {
+        "v": "inabsorvivel",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "mecanismoAbsorcao": {
+        "v": null,
+        "s": "lacuna",
+        "f": []
+      },
+      "tempoAbsorcao": {
+        "v": null,
+        "s": "lacuna",
+        "f": []
+      },
+      "resistenciaTensil": {
+        "v": null,
+        "s": "lacuna",
+        "f": [],
+        "nota": "Não aparece na tabela de resistência dos slides."
+      },
+      "estrutura": {
+        "v": "multi_torcido",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "reacaoTecidual": {
+        "v": "alta",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "capilaridade": {
+        "v": "alta",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "memoria": {
+        "v": "baixa",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "manuseio": {
+        "v": "alta",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "segurancaNo": {
+        "v": "alta",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "indicacoes": {
+        "v": [
+          "Ligaduras (uso atual raro)"
+        ],
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "limitacoes": {
+        "v": [
+          "Reação tecidual alta",
+          "Pouco usado hoje"
+        ],
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "diferencial": "Natural VEGETAL como o algodão; nos materiais aparece apenas na classificação de origem.",
+      "confundeCom": [
+        "algodao",
+        "seda"
+      ],
+      "imagens": [],
+      "alerta": "Os materiais só citam o linho como 'natural vegetal' (slides p5). Todo o resto vem de referência externa e precisa ser conferido.",
+      "prioridadeProva": 2
+    },
+    {
+      "id": "nylon",
+      "nome": "Náilon (poliamida)",
+      "comerciais": [
+        "Nylon",
+        "Ethilon",
+        "Mononylon"
+      ],
+      "bloco": "F4",
+      "origem": {
+        "v": "sintetico",
+        "s": "material",
+        "f": [
+          "slides-fios p5"
+        ]
+      },
+      "composicao": {
+        "v": "Poliamida",
+        "s": "material",
+        "f": [
+          "slides-fios p5",
+          "slides-fios p8"
+        ]
+      },
+      "absorcao": {
+        "v": "inabsorvivel",
+        "s": "material",
+        "f": [
+          "slides-fios p21",
+          "slides-fios p13"
+        ]
+      },
+      "mecanismoAbsorcao": {
+        "v": null,
+        "s": "lacuna",
+        "f": [],
+        "nota": "Não se aplica; sofre hidrólise lenta, perdendo cerca de 15–20% da resistência por ano (ext)."
+      },
+      "tempoAbsorcao": {
+        "v": null,
+        "s": "lacuna",
+        "f": []
+      },
+      "resistenciaTensil": {
+        "v": "Alta; terceiro dos inabsorvíveis",
+        "s": "material",
+        "f": [
+          "slides-fios p8"
+        ]
+      },
+      "estrutura": {
+        "v": "mono",
+        "s": "material",
+        "f": [
+          "slides-fios p21",
+          "slides-fios p13"
+        ],
+        "nota": "Também existe versão multifilamentar (ext), mas a forma usual e a dos slides é monofilamentar."
+      },
+      "reacaoTecidual": {
+        "v": "baixa",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "capilaridade": {
+        "v": "baixa",
+        "s": "material",
+        "f": [
+          "slides-fios p10"
+        ]
+      },
+      "memoria": {
+        "v": "alta",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "manuseio": {
+        "v": "moderada",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "segurancaNo": {
+        "v": "baixa",
+        "s": "divergente",
+        "f": [
+          "slides-fios p21",
+          "ext"
+        ],
+        "nota": "O slide p21 diz 'requerem 4 a 5 nós para uma fixação segura' dentro do bloco de poliéster, logo antes de citar Nylon e Prolene. Na literatura, a necessidade de muitos nós é característica dos monofilamentos de alta memória (náilon, polipropileno)."
+      },
+      "indicacoes": {
+        "v": [
+          "Sutura de pele"
+        ],
+        "s": "externa",
+        "f": [
+          "ext"
+        ],
+        "nota": "No slide p21 a lista 'tendões, aponeurose, vasos, pele' está no bloco do poliéster."
+      },
+      "limitacoes": {
+        "v": [
+          "Memória alta: nó pode se desfazer, exige vários nós"
+        ],
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "diferencial": "Sintético inabsorvível MONOFILAMENTAR de poliamida: fio clássico de pele. Diferente do Prolene pela composição e por perder lentamente resistência.",
+      "confundeCom": [
+        "polipropileno",
+        "poliester"
+      ],
+      "imagens": [
+        {
+          "src": "img/fios/nylon-embalagem.png",
+          "tipo": "embalagem",
+          "qualidade": "ilustrativa",
+          "fonte": "slides-fios p13"
+        }
+      ],
+      "alertaMaterial": "No slide p21 o Nylon aparece dentro do tópico 'Fios de Poliéster'. Náilon é POLIAMIDA (o próprio slide p5 separa poliamida e poliéster).",
+      "prioridadeProva": 2
+    },
+    {
+      "id": "polipropileno",
+      "nome": "Polipropileno",
+      "comerciais": [
+        "Prolene"
+      ],
+      "bloco": "F4",
+      "origem": {
+        "v": "sintetico",
+        "s": "material",
+        "f": [
+          "slides-fios p21"
+        ]
+      },
+      "composicao": {
+        "v": "Polipropileno",
+        "s": "material",
+        "f": [
+          "slides-fios p21"
+        ]
+      },
+      "absorcao": {
+        "v": "inabsorvivel",
+        "s": "material",
+        "f": [
+          "slides-fios p21",
+          "slides-fios p13"
+        ]
+      },
+      "mecanismoAbsorcao": {
+        "v": null,
+        "s": "lacuna",
+        "f": []
+      },
+      "tempoAbsorcao": {
+        "v": null,
+        "s": "lacuna",
+        "f": []
+      },
+      "resistenciaTensil": {
+        "v": "Quarto dos inabsorvíveis; não se degrada",
+        "s": "material",
+        "f": [
+          "slides-fios p8",
+          "ext"
+        ]
+      },
+      "estrutura": {
+        "v": "mono",
+        "s": "material",
+        "f": [
+          "slides-fios p21",
+          "slides-fios p13"
+        ]
+      },
+      "reacaoTecidual": {
+        "v": "muito_baixa",
+        "s": "externa",
+        "f": [
+          "ext"
+        ],
+        "nota": "Um dos fios mais inertes."
+      },
+      "capilaridade": {
+        "v": "baixa",
+        "s": "material",
+        "f": [
+          "slides-fios p10"
+        ]
+      },
+      "memoria": {
+        "v": "alta",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "manuseio": {
+        "v": "moderada",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "segurancaNo": {
+        "v": "baixa",
+        "s": "divergente",
+        "f": [
+          "slides-fios p21",
+          "ext"
+        ],
+        "nota": "Ver nota do náilon sobre '4 a 5 nós'."
+      },
+      "indicacoes": {
+        "v": [
+          "Cirurgias vasculares"
+        ],
+        "s": "material",
+        "f": [
+          "slides-fios p21"
+        ],
+        "extra": [
+          "Fixação de telas, pele (ext)"
+        ]
+      },
+      "limitacoes": {
+        "v": [
+          "Memória alta e superfície lisa: exige vários nós"
+        ],
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "diferencial": "Sintético inabsorvível MONOFILAMENTAR, extremamente inerte: fio das cirurgias VASCULARES nos slides.",
+      "confundeCom": [
+        "nylon",
+        "pds"
+      ],
+      "imagens": [
+        {
+          "src": "img/fios/polipropileno-embalagem.png",
+          "tipo": "embalagem",
+          "qualidade": "ilustrativa",
+          "fonte": "slides-fios p13"
+        }
+      ],
+      "prioridadeProva": 2
+    },
+    {
+      "id": "poliester",
+      "nome": "Poliéster",
+      "comerciais": [
+        "Mersilene",
+        "Ethibond"
+      ],
+      "bloco": "F4",
+      "origem": {
+        "v": "sintetico",
+        "s": "material",
+        "f": [
+          "slides-fios p5"
+        ]
+      },
+      "composicao": {
+        "v": "Fibras de poliéster (tereftalato de polietileno)",
+        "s": "material",
+        "f": [
+          "slides-fios p21",
+          "ext"
+        ]
+      },
+      "absorcao": {
+        "v": "inabsorvivel",
+        "s": "material",
+        "f": [
+          "slides-fios p21"
+        ]
+      },
+      "mecanismoAbsorcao": {
+        "v": null,
+        "s": "lacuna",
+        "f": []
+      },
+      "tempoAbsorcao": {
+        "v": null,
+        "s": "lacuna",
+        "f": []
+      },
+      "resistenciaTensil": {
+        "v": "Muito alta e duradoura; segundo dos inabsorvíveis",
+        "s": "material",
+        "f": [
+          "slides-fios p21",
+          "slides-fios p8"
+        ]
+      },
+      "estrutura": {
+        "v": "multi_trancado",
+        "s": "externa",
+        "f": [
+          "ext"
+        ],
+        "nota": "Os slides não dizem a estrutura do poliéster."
+      },
+      "reacaoTecidual": {
+        "v": "baixa",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "capilaridade": {
+        "v": "alta",
+        "s": "externa",
+        "f": [
+          "ext",
+          "slides-fios p10"
+        ],
+        "nota": "Multifilamentar; versões revestidas (Ethibond) reduzem a capilaridade."
+      },
+      "memoria": {
+        "v": "baixa",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "manuseio": {
+        "v": "alta",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "segurancaNo": {
+        "v": "moderada",
+        "s": "divergente",
+        "f": [
+          "slides-fios p21",
+          "ext"
+        ],
+        "nota": "Slides: 'requerem 4 a 5 nós para fixação segura' no bloco de poliéster. Na literatura o poliéster não revestido tem boa segurança; o revestido exige mais nós."
+      },
+      "indicacoes": {
+        "v": [
+          "Suturas de tendões",
+          "Aponeurose",
+          "Vasos",
+          "Pele"
+        ],
+        "s": "material",
+        "f": [
+          "slides-fios p21"
+        ]
+      },
+      "limitacoes": {
+        "v": [
+          "Multifilamentar: maior capilaridade"
+        ],
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "diferencial": "Sintético inabsorvível muito resistente e durável (segundo só para o aço): tendões e aponeurose.",
+      "confundeCom": [
+        "nylon",
+        "seda"
+      ],
+      "imagens": [],
+      "prioridadeProva": 2
+    },
+    {
+      "id": "aco",
+      "nome": "Aço cirúrgico",
+      "comerciais": [
+        "Aço inoxidável"
+      ],
+      "bloco": "F3",
+      "origem": {
+        "v": "natural",
+        "detalhe": "mineral",
+        "s": "divergente",
+        "f": [
+          "slides-fios p5",
+          "ext"
+        ],
+        "nota": "Os slides classificam o aço como NATURAL MINERAL. Alguns autores o tratam como fio metálico, fora da divisão natural/sintético. O jogo usa a classificação dos slides."
+      },
+      "composicao": {
+        "v": "Liga de aço inoxidável (ferro, cromo, níquel, molibdênio)",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "absorcao": {
+        "v": "inabsorvivel",
+        "s": "material",
+        "f": [
+          "slides-fios p8"
+        ]
+      },
+      "mecanismoAbsorcao": {
+        "v": null,
+        "s": "lacuna",
+        "f": []
+      },
+      "tempoAbsorcao": {
+        "v": null,
+        "s": "lacuna",
+        "f": []
+      },
+      "resistenciaTensil": {
+        "v": "A maior de todos os fios",
+        "s": "material",
+        "f": [
+          "slides-fios p8"
+        ]
+      },
+      "estrutura": {
+        "v": "ambos",
+        "s": "externa",
+        "f": [
+          "ext"
+        ],
+        "nota": "Existe em mono e multifilamentar."
+      },
+      "reacaoTecidual": {
+        "v": "muito_baixa",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "capilaridade": {
+        "v": null,
+        "s": "lacuna",
+        "f": [],
+        "nota": "Depende da versão (mono ou multi)."
+      },
+      "memoria": {
+        "v": null,
+        "s": "lacuna",
+        "f": []
+      },
+      "manuseio": {
+        "v": "muito_baixa",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "segurancaNo": {
+        "v": "alta",
+        "s": "externa",
+        "f": [
+          "ext"
+        ],
+        "nota": "Fixado por torção."
+      },
+      "indicacoes": {
+        "v": [
+          "Fechamento do esterno",
+          "Ortopedia",
+          "Tendões"
+        ],
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "limitacoes": {
+        "v": [
+          "Difícil manuseio",
+          "Pode cortar tecidos e perfurar luvas",
+          "Artefatos em exames de imagem"
+        ],
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "diferencial": "O mais resistente de todos (slides p8); único natural MINERAL.",
+      "confundeCom": [
+        "poliester"
+      ],
+      "imagens": [],
+      "prioridadeProva": 2
+    }
+  ]
+}

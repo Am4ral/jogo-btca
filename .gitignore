@@ -1,0 +1,13 @@
+# materiais originais da disciplina e o que foi extraído deles: ficam só no computador
+*.pdf
+extracted/
+
+# gerados / dependências
+node_modules/
+app/dist/
+revisao-conteudo.html
+
+# configurações locais
+.claude/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,32 @@
+{
+  "etapas": ["descobrir", "memoria", "monte-ficha", "quem-sou-eu", "encontre-erro", "desafio-final"],
+  "campanhas": [
+    {
+      "id": "fios",
+      "titulo": "Campanha de fios",
+      "blocos": [
+        { "id": "F0", "titulo": "Conceitos fundamentais", "tipo": "conceitos", "termos": ["absorvivel", "inabsorvivel", "monofilamentar", "multifilamentar", "capilaridade", "memoria", "forca-tensil", "meia-vida", "reacao-tecidual", "seguranca-no", "hidrolise", "proteolise", "calibre", "elasticidade", "plasticidade", "coeficiente-atrito"] },
+        { "id": "F1", "titulo": "Fios naturais absorvíveis", "itens": ["categute-simples", "categute-cromado"] },
+        { "id": "F2", "titulo": "Fios sintéticos absorvíveis", "itens": ["vicryl", "dexon", "monocryl", "pds", "poligliconato"] },
+        { "id": "F3", "titulo": "Fios naturais inabsorvíveis", "itens": ["seda", "algodao", "linho", "aco"], "nota": "O aço entra aqui porque os slides o classificam como natural mineral." },
+        { "id": "F4", "titulo": "Fios sintéticos inabsorvíveis", "itens": ["nylon", "polipropileno", "poliester"] },
+        { "id": "F5", "titulo": "Comparação entre semelhantes", "tipo": "comparacao", "confusoes": ["categute-simples-x-cromado", "vicryl-x-dexon", "monocryl-x-pds", "pds-x-poligliconato", "nylon-x-polipropileno", "seda-x-algodao-x-linho"] },
+        { "id": "F6", "titulo": "Revisão geral dos fios", "tipo": "revisao", "itens": "todos-fios" }
+      ]
+    },
+    {
+      "id": "instrumentos",
+      "titulo": "Campanha de instrumentação",
+      "blocos": [
+        { "id": "I0", "titulo": "Conceitos e grupos cirúrgicos", "tipo": "conceitos", "termos": ["dierese", "hemostasia", "sintese", "preensao", "traumatico", "atraumatico", "serrilha", "cremalheira", "afastador-dinamico", "afastador-autoestatico"] },
+        { "id": "I1", "titulo": "Diérese", "itens": ["cabo-bisturi-3", "cabo-bisturi-4", "laminas-bisturi", "bisturi-eletrico", "tesoura-mayo", "tesoura-metzenbaum"] },
+        { "id": "I2", "titulo": "Hemostasia", "itens": ["halsted", "kelly", "crile", "mixter"] },
+        { "id": "I3", "titulo": "Preensão", "itens": ["kocher", "allis", "backhaus", "babcock", "duval", "pozzi"] },
+        { "id": "I4", "titulo": "Síntese", "itens": ["mayo-hegar", "mathieu", "pinca-anatomica", "dente-de-rato", "adson-com-dentes", "adson-sem-dentes"] },
+        { "id": "I5", "titulo": "Afastamento e auxiliares", "itens": ["farabeuf", "doyen", "finochietto", "gosset", "maleavel", "cheron"] },
+        { "id": "I6", "titulo": "Comparação entre semelhantes", "tipo": "comparacao", "confusoes": ["mayo-x-metzenbaum", "cabo-3-x-4", "kelly-x-crile", "kelly-x-halsted", "kelly-x-kocher", "kelly-x-mixter", "allis-x-babcock", "babcock-x-duval", "anatomica-x-dente-de-rato", "adson-com-x-sem-dentes", "mayo-hegar-x-mathieu", "mayo-hegar-x-kelly", "dinamicos-x-autoestaticos", "farabeuf-x-doyen", "finochietto-x-gosset", "backhaus-x-pozzi"] },
+        { "id": "I7", "titulo": "Revisão geral da instrumentação", "tipo": "revisao", "itens": "todos-instrumentos" }
+      ]
+    }
+  ]
+}

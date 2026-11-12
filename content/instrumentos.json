@@ -1,0 +1,3055 @@
+{
+  "_grupos": {
+    "dierese": "Diérese: secção e/ou divulsão dos tecidos (slides-instr p3)",
+    "hemostasia": "Hemostasia: estancar, temporária ou definitivamente, o sangramento (slides-instr p4)",
+    "preensao": "Preensão: prender e segurar tecidos ou materiais (resumo-instr p2)",
+    "sintese": "Síntese: aproximar as bordas dos tecidos para facilitar a cicatrização (slides-instr p21)",
+    "afastamento": "Afastamento / exposição: expor o campo operatório (resumo-instr p5)",
+    "auxiliar": "Auxiliar / especial: outras funções (resumo-instr p7)"
+  },
+  "_campos": "serrilha: 'total' | 'dois_tercos' | 'ausente' | 'cruzada' | 'na'. dentes: true/false/null. traumatico: true/false/null (null = não se aplica). cabo: 'argolas_cremalheira' | 'pinca_mola' | 'reto' | 'manual' | 'cremalheira_manivela' | 'outro'.",
+  "itens": [
+    {
+      "id": "cabo-bisturi-3",
+      "nome": "Cabo de bisturi nº 3",
+      "sinonimos": [
+        "Cabo nº 3"
+      ],
+      "bloco": "I1",
+      "grupo": {
+        "v": "dierese",
+        "s": "material",
+        "f": [
+          "slides-instr p8",
+          "resumo p4"
+        ]
+      },
+      "funcao": {
+        "v": "Suporte para lâminas pequenas, em incisões delicadas e precisas",
+        "s": "material",
+        "f": [
+          "instr-cirurgica p2",
+          "ext"
+        ]
+      },
+      "estrutura": {
+        "v": [
+          "Cabo metálico reto e plano",
+          "Encaixe estreito para lâminas pequenas (nº 10 a 15)",
+          "Mais fino e delicado que o nº 4"
+        ],
+        "s": "material",
+        "f": [
+          "instr-cirurgica p2",
+          "ext"
+        ],
+        "nota": "A folha de mesa cita 'cabo de bisturi 3 na lâmina 15'. A faixa 10–15 vem da literatura."
+      },
+      "ponta": {
+        "v": "Encaixe para lâmina (sem corte próprio)",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "dentes": {
+        "v": null,
+        "s": "material",
+        "f": []
+      },
+      "serrilha": {
+        "v": "na",
+        "s": "material",
+        "f": []
+      },
+      "versoes": {
+        "v": [
+          "reto"
+        ],
+        "s": "material",
+        "f": [
+          "slides-instr p8"
+        ]
+      },
+      "traumatico": {
+        "v": null,
+        "s": "material",
+        "f": []
+      },
+      "cabo": {
+        "v": "reto",
+        "s": "material",
+        "f": [
+          "slides-instr p8"
+        ]
+      },
+      "usos": {
+        "v": [
+          "Incisões pequenas e delicadas (pele fina, face)",
+          "Empunhadura em caneta"
+        ],
+        "s": "externa",
+        "f": [
+          "ext",
+          "slides-instr p9"
+        ]
+      },
+      "reconhecimento": "Cabo mais estreito e delicado; recebe lâminas pequenas (ex.: nº 15).",
+      "confundeCom": [
+        "cabo-bisturi-4"
+      ],
+      "imagens": [
+        {
+          "src": "img/instr/cabos-3-4-produto.png",
+          "tipo": "comparacao",
+          "qualidade": "boa",
+          "fonte": "resumo-instr p1",
+          "nota": "Cabos nº 4 (acima) e nº 3 (abaixo), identificados na imagem."
+        },
+        {
+          "src": "img/instr/cabos-3-4-foto.png",
+          "tipo": "comparacao",
+          "qualidade": "aceitavel",
+          "fonte": "slides-instr p8",
+          "nota": "Foto dos dois cabos lado a lado, sem rótulo de qual é qual."
+        }
+      ],
+      "prioridadeProva": 2
+    },
+    {
+      "id": "cabo-bisturi-4",
+      "nome": "Cabo de bisturi nº 4",
+      "sinonimos": [
+        "Cabo nº 4"
+      ],
+      "bloco": "I1",
+      "grupo": {
+        "v": "dierese",
+        "s": "material",
+        "f": [
+          "slides-instr p8",
+          "resumo p4"
+        ]
+      },
+      "funcao": {
+        "v": "Suporte para lâminas grandes, em incisões amplas",
+        "s": "material",
+        "f": [
+          "instr-cirurgica p1",
+          "ext"
+        ]
+      },
+      "estrutura": {
+        "v": [
+          "Cabo metálico reto, mais largo",
+          "Encaixe largo para lâminas grandes (nº 20 a 25)"
+        ],
+        "s": "material",
+        "f": [
+          "instr-cirurgica p1",
+          "ext"
+        ],
+        "nota": "A folha de mesa cita 'cabo de bisturi 4 na lâmina 23'. A faixa 20–25 vem da literatura."
+      },
+      "ponta": {
+        "v": "Encaixe para lâmina (sem corte próprio)",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "dentes": {
+        "v": null,
+        "s": "material",
+        "f": []
+      },
+      "serrilha": {
+        "v": "na",
+        "s": "material",
+        "f": []
+      },
+      "versoes": {
+        "v": [
+          "reto"
+        ],
+        "s": "material",
+        "f": [
+          "slides-instr p8"
+        ]
+      },
+      "traumatico": {
+        "v": null,
+        "s": "material",
+        "f": []
+      },
+      "cabo": {
+        "v": "reto",
+        "s": "material",
+        "f": [
+          "slides-instr p8"
+        ]
+      },
+      "usos": {
+        "v": [
+          "Incisões amplas (pele do abdome, tórax)",
+          "Empunhadura em arco de violino"
+        ],
+        "s": "externa",
+        "f": [
+          "ext",
+          "slides-instr p9"
+        ]
+      },
+      "reconhecimento": "Cabo mais largo e robusto; recebe lâminas grandes (ex.: nº 23).",
+      "confundeCom": [
+        "cabo-bisturi-3"
+      ],
+      "imagens": [
+        {
+          "src": "img/instr/cabos-3-4-produto.png",
+          "tipo": "comparacao",
+          "qualidade": "boa",
+          "fonte": "resumo-instr p1"
+        },
+        {
+          "src": "img/instr/cabo-4.png",
+          "tipo": "inteiro",
+          "qualidade": "boa",
+          "fonte": "instr-cirurgica p1",
+          "foco": [
+            11,
+            60
+          ]
+        }
+      ],
+      "prioridadeProva": 2
+    },
+    {
+      "id": "laminas-bisturi",
+      "nome": "Lâminas de bisturi",
+      "sinonimos": [
+        "Lâmina"
+      ],
+      "bloco": "I1",
+      "grupo": {
+        "v": "dierese",
+        "s": "material",
+        "f": [
+          "slides-instr p8",
+          "resumo p4"
+        ]
+      },
+      "funcao": {
+        "v": "Cortar tecidos (incisão)",
+        "s": "material",
+        "f": [
+          "slides-instr p8"
+        ]
+      },
+      "estrutura": {
+        "v": [
+          "Descartáveis, encaixadas no cabo",
+          "Numeradas: pequenas (10, 11, 12, 15) para o cabo 3; grandes (20 a 25) para o cabo 4",
+          "Nº 11: ponta triangular afiada; nº 15: pequena e curva"
+        ],
+        "s": "material",
+        "f": [
+          "slides-instr p8",
+          "instr-cirurgica",
+          "ext"
+        ],
+        "nota": "A foto dos slides mostra lâminas 21, 20, 15, 11 e 10. A correspondência com os cabos vem da literatura."
+      },
+      "ponta": {
+        "v": "Cortante; formato varia com o número",
+        "s": "material",
+        "f": [
+          "slides-instr p8"
+        ]
+      },
+      "dentes": {
+        "v": null,
+        "s": "material",
+        "f": []
+      },
+      "serrilha": {
+        "v": "na",
+        "s": "material",
+        "f": []
+      },
+      "versoes": {
+        "v": [],
+        "s": "material",
+        "f": []
+      },
+      "traumatico": {
+        "v": null,
+        "s": "material",
+        "f": []
+      },
+      "cabo": {
+        "v": "outro",
+        "s": "material",
+        "f": []
+      },
+      "usos": {
+        "v": [
+          "Incisão de pele e tecidos",
+          "Descarte no Descarpack (perfurocortante)"
+        ],
+        "s": "material",
+        "f": [
+          "resumo p12"
+        ]
+      },
+      "reconhecimento": "Peça metálica descartável numerada, com fenda para encaixar no cabo.",
+      "confundeCom": [
+        "cabo-bisturi-3",
+        "cabo-bisturi-4"
+      ],
+      "imagens": [
+        {
+          "src": "img/instr/laminas-numeradas.png",
+          "tipo": "inteiro",
+          "qualidade": "aceitavel",
+          "fonte": "slides-instr p8",
+          "nota": "Números 21, 20, 15, 11, 10 visíveis."
+        },
+        {
+          "src": "img/instr/laminas-produto.png",
+          "tipo": "inteiro",
+          "qualidade": "boa",
+          "fonte": "resumo-instr p1",
+          "foco": [
+            50,
+            50
+          ]
+        }
+      ],
+      "prioridadeProva": 2
+    },
+    {
+      "id": "bisturi-eletrico",
+      "nome": "Bisturi elétrico",
+      "sinonimos": [
+        "Eletrocautério"
+      ],
+      "bloco": "I1",
+      "grupo": {
+        "v": "dierese",
+        "s": "divergente",
+        "f": [
+          "resumo-instr p1",
+          "resumo p6"
+        ],
+        "nota": "No resumo de instrumentação ele está em diérese ('serve para cortar e cauterizar'). No BTCA resumo ele aparece como exemplo de HEMOSTASIA. Faz as duas coisas; o jogo usa diérese (sua lista) e aceita a nota.",
+        "aceitaTambem": [
+          "hemostasia"
+        ]
+      },
+      "funcao": {
+        "v": "Cortar e cauterizar (coagular) por corrente elétrica",
+        "s": "material",
+        "f": [
+          "resumo-instr p1"
+        ]
+      },
+      "estrutura": {
+        "v": [
+          "Caneta com ponta metálica",
+          "Cabo elétrico ligado ao gerador"
+        ],
+        "s": "material",
+        "f": [
+          "resumo-instr p1"
+        ]
+      },
+      "ponta": {
+        "v": "Eletrodo metálico (ponta em espátula ou agulha)",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "dentes": {
+        "v": null,
+        "s": "material",
+        "f": []
+      },
+      "serrilha": {
+        "v": "na",
+        "s": "material",
+        "f": []
+      },
+      "versoes": {
+        "v": [],
+        "s": "material",
+        "f": []
+      },
+      "traumatico": {
+        "v": null,
+        "s": "material",
+        "f": []
+      },
+      "cabo": {
+        "v": "outro",
+        "s": "material",
+        "f": []
+      },
+      "usos": {
+        "v": [
+          "Corte de tecidos",
+          "Hemostasia de pequenos vasos"
+        ],
+        "s": "material",
+        "f": [
+          "resumo-instr p1",
+          "resumo p6"
+        ]
+      },
+      "reconhecimento": "Caneta plástica com fio elétrico: o único instrumento de diérese que também coagula.",
+      "confundeCom": [
+        "cabo-bisturi-3"
+      ],
+      "imagens": [
+        {
+          "src": "img/instr/bisturi-eletrico.png",
+          "tipo": "inteiro",
+          "qualidade": "boa",
+          "fonte": "resumo-instr p1",
+          "foco": [
+            68,
+            14
+          ]
+        }
+      ],
+      "prioridadeProva": 2
+    },
+    {
+      "id": "tesoura-mayo",
+      "nome": "Tesoura de Mayo",
+      "sinonimos": [
+        "Mayo"
+      ],
+      "bloco": "I1",
+      "grupo": {
+        "v": "dierese",
+        "s": "material",
+        "f": [
+          "slides-instr p10",
+          "resumo-instr p1",
+          "apostila-mesa p7"
+        ]
+      },
+      "funcao": {
+        "v": "Cortar tecidos mais densos e resistentes (e fios)",
+        "s": "externa",
+        "f": [
+          "ext"
+        ],
+        "nota": "Os materiais descrevem a forma, não a função específica."
+      },
+      "estrutura": {
+        "v": [
+          "Mais robusta que a Metzenbaum",
+          "Ponta arredondada e PROPORCIONAL ao cabo"
+        ],
+        "s": "material",
+        "f": [
+          "resumo-instr p1",
+          "resumo-instr p2"
+        ]
+      },
+      "ponta": {
+        "v": "Arredondada (romba), lâminas largas e proporcionais ao cabo",
+        "s": "material",
+        "f": [
+          "resumo-instr p2"
+        ]
+      },
+      "dentes": {
+        "v": false,
+        "s": "material",
+        "f": []
+      },
+      "serrilha": {
+        "v": "na",
+        "s": "material",
+        "f": []
+      },
+      "versoes": {
+        "v": [
+          "reta",
+          "curva"
+        ],
+        "s": "material",
+        "f": [
+          "resumo-instr p2"
+        ]
+      },
+      "traumatico": {
+        "v": null,
+        "s": "material",
+        "f": []
+      },
+      "cabo": {
+        "v": "argolas",
+        "s": "material",
+        "f": []
+      },
+      "usos": {
+        "v": [
+          "Tecidos densos: aponeurose, fáscia",
+          "Corte de fios (a reta)"
+        ],
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "reconhecimento": "Robusta, com lâminas largas e do mesmo tamanho que o cabo.",
+      "confundeCom": [
+        "tesoura-metzenbaum"
+      ],
+      "imagens": [
+        {
+          "src": "img/instr/mayo-reta.png",
+          "tipo": "inteiro",
+          "qualidade": "boa",
+          "fonte": "resumo-instr p2",
+          "foco": [
+            21,
+            12
+          ]
+        },
+        {
+          "src": "img/instr/mayo-curva.png",
+          "tipo": "inteiro",
+          "qualidade": "boa",
+          "fonte": "resumo-instr p2"
+        },
+        {
+          "src": "img/instr/metzenbaum-x-mayo.png",
+          "tipo": "comparacao",
+          "qualidade": "insuficiente",
+          "fonte": "slides-instr p10",
+          "nota": "Imagem pequena (235×149 px). Serve só de ilustração."
+        }
+      ],
+      "prioridadeProva": 2
+    },
+    {
+      "id": "tesoura-metzenbaum",
+      "nome": "Tesoura de Metzenbaum",
+      "sinonimos": [
+        "Metzenbaum"
+      ],
+      "bloco": "I1",
+      "grupo": {
+        "v": "dierese",
+        "s": "material",
+        "f": [
+          "slides-instr p10",
+          "resumo-instr p1"
+        ]
+      },
+      "funcao": {
+        "v": "Cortar e dissecar tecidos delicados",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "estrutura": {
+        "v": [
+          "Delicada e longa",
+          "Ponta PEQUENA em relação ao cabo",
+          "Ponta arredondada (quase pontiaguda)"
+        ],
+        "s": "material",
+        "f": [
+          "resumo-instr p1"
+        ]
+      },
+      "ponta": {
+        "v": "Arredondada, fina e curta em relação ao cabo",
+        "s": "material",
+        "f": [
+          "resumo-instr p1"
+        ]
+      },
+      "dentes": {
+        "v": false,
+        "s": "material",
+        "f": []
+      },
+      "serrilha": {
+        "v": "na",
+        "s": "material",
+        "f": []
+      },
+      "versoes": {
+        "v": [
+          "reta",
+          "curva"
+        ],
+        "s": "material",
+        "f": [
+          "resumo-instr p1"
+        ],
+        "nota": "'Pode ser reta ou levemente curvada'."
+      },
+      "traumatico": {
+        "v": null,
+        "s": "material",
+        "f": []
+      },
+      "cabo": {
+        "v": "argolas",
+        "s": "material",
+        "f": []
+      },
+      "usos": {
+        "v": [
+          "Dissecção de tecidos delicados",
+          "Divulsão"
+        ],
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "reconhecimento": "Cabo longo com lâminas curtas e finas; nunca deve cortar fio.",
+      "confundeCom": [
+        "tesoura-mayo"
+      ],
+      "imagens": [
+        {
+          "src": "img/instr/metzenbaum-reta.png",
+          "tipo": "inteiro",
+          "qualidade": "boa",
+          "fonte": "resumo-instr p1",
+          "foco": [
+            19,
+            49
+          ]
+        },
+        {
+          "src": "img/instr/metzenbaum-curva.png",
+          "tipo": "inteiro",
+          "qualidade": "aceitavel",
+          "fonte": "resumo-instr p1"
+        }
+      ],
+      "prioridadeProva": 2
+    },
+    {
+      "id": "halsted",
+      "nome": "Pinça Halsted",
+      "sinonimos": [
+        "Mosquito",
+        "Halstead",
+        "Mosquitinho"
+      ],
+      "bloco": "I2",
+      "grupo": {
+        "v": "hemostasia",
+        "s": "material",
+        "f": [
+          "slides-instr p15",
+          "resumo-instr p4",
+          "apostila-mesa p7"
+        ]
+      },
+      "funcao": {
+        "v": "Pinçar PEQUENOS vasos",
+        "s": "material",
+        "f": [
+          "resumo-instr p4"
+        ]
+      },
+      "estrutura": {
+        "v": [
+          "A menor das hemostáticas (menor que a Kelly)",
+          "Ponta bem fina",
+          "Ponta ainda mais curta em relação ao cabo",
+          "Argolas e cremalheira"
+        ],
+        "s": "material",
+        "f": [
+          "resumo-instr p4",
+          "instr-cirurgica p2"
+        ]
+      },
+      "ponta": {
+        "v": "Muito fina e delicada",
+        "s": "material",
+        "f": [
+          "resumo-instr p4"
+        ]
+      },
+      "dentes": {
+        "v": false,
+        "s": "material",
+        "f": []
+      },
+      "serrilha": {
+        "v": "total",
+        "s": "material",
+        "f": [
+          "resumo-instr p4",
+          "instr-cirurgica p2"
+        ],
+        "nota": "'Os dentinhos vão até o final' (ranhuras transversais em toda a extensão)."
+      },
+      "versoes": {
+        "v": [
+          "reta",
+          "curva"
+        ],
+        "s": "material",
+        "f": [
+          "resumo-instr p4",
+          "instr-cirurgica p2"
+        ]
+      },
+      "traumatico": {
+        "v": null,
+        "s": "lacuna",
+        "f": []
+      },
+      "cabo": {
+        "v": "argolas_cremalheira",
+        "s": "material",
+        "f": []
+      },
+      "usos": {
+        "v": [
+          "Hemostasia de vasos de pequeno calibre"
+        ],
+        "s": "material",
+        "f": [
+          "resumo-instr p4"
+        ]
+      },
+      "reconhecimento": "Tamanho pequeno e ponta muito fina, com ranhuras até o final.",
+      "confundeCom": [
+        "kelly",
+        "crile"
+      ],
+      "imagens": [
+        {
+          "src": "img/instr/halsted-reta.png",
+          "tipo": "inteiro",
+          "qualidade": "boa",
+          "fonte": "resumo-instr p4",
+          "foco": [
+            16,
+            49
+          ]
+        },
+        {
+          "src": "img/instr/halsted-curva.png",
+          "tipo": "inteiro",
+          "qualidade": "boa",
+          "fonte": "resumo-instr p4"
+        },
+        {
+          "src": "img/instr/halsted-x-kelly.png",
+          "tipo": "comparacao",
+          "qualidade": "boa",
+          "fonte": "slides-instr p15",
+          "nota": "Halsted (menor, à esquerda) e Kelly (maior, à direita): mostra a diferença de tamanho."
+        }
+      ],
+      "prioridadeProva": 2
+    },
+    {
+      "id": "kelly",
+      "nome": "Pinça Kelly",
+      "sinonimos": [
+        "Kelly"
+      ],
+      "bloco": "I2",
+      "grupo": {
+        "v": "hemostasia",
+        "s": "material",
+        "f": [
+          "slides-instr p14",
+          "resumo-instr p3",
+          "apostila-mesa p7"
+        ]
+      },
+      "funcao": {
+        "v": "Pinçar vasos",
+        "s": "material",
+        "f": [
+          "resumo-instr p3"
+        ]
+      },
+      "estrutura": {
+        "v": [
+          "Maior que a Halsted",
+          "Ponta curta em relação ao cabo",
+          "Argolas e cremalheira"
+        ],
+        "s": "material",
+        "f": [
+          "resumo-instr p3",
+          "instr-cirurgica p2"
+        ]
+      },
+      "ponta": {
+        "v": "Reta ou curva, curta em relação ao cabo",
+        "s": "material",
+        "f": [
+          "resumo-instr p3"
+        ]
+      },
+      "dentes": {
+        "v": false,
+        "s": "material",
+        "f": []
+      },
+      "serrilha": {
+        "v": "dois_tercos",
+        "s": "material",
+        "f": [
+          "resumo-instr p3",
+          "instr-cirurgica p2"
+        ],
+        "nota": "'Ranhuras até 2/3 da extensão' — a parte proximal da mandíbula é lisa."
+      },
+      "versoes": {
+        "v": [
+          "reta",
+          "curva"
+        ],
+        "s": "material",
+        "f": [
+          "resumo-instr p3",
+          "instr-cirurgica p1"
+        ]
+      },
+      "traumatico": {
+        "v": null,
+        "s": "lacuna",
+        "f": []
+      },
+      "cabo": {
+        "v": "argolas_cremalheira",
+        "s": "material",
+        "f": []
+      },
+      "usos": {
+        "v": [
+          "Hemostasia de vasos",
+          "Na mesa: 'Kelly sempre curva' e Kelly reta"
+        ],
+        "s": "material",
+        "f": [
+          "resumo-instr p3",
+          "slides-instr p27"
+        ]
+      },
+      "reconhecimento": "Ranhuras em apenas 2/3 da mandíbula (perto da articulação é lisa). É isso que a separa da Crile.",
+      "confundeCom": [
+        "crile",
+        "halsted",
+        "kocher"
+      ],
+      "imagens": [
+        {
+          "src": "img/instr/kelly-reta.png",
+          "tipo": "inteiro",
+          "qualidade": "boa",
+          "fonte": "resumo-instr p3",
+          "nota": "Tem detalhe ampliado da ponta.",
+          "foco": [
+            20,
+            17
+          ]
+        },
+        {
+          "src": "img/instr/kelly-curva.png",
+          "tipo": "inteiro",
+          "qualidade": "boa",
+          "fonte": "resumo-instr p3",
+          "nota": "Tem detalhe ampliado da ponta."
+        },
+        {
+          "src": "img/instr/kelly-x-crile.png",
+          "tipo": "comparacao",
+          "qualidade": "boa",
+          "fonte": "slides-instr p14",
+          "nota": "Foto das duas pontas. A legenda não diz qual é qual; pela serrilha, a de baixo (serrilha só na parte distal) seria a Kelly e a de cima a Crile. CONFERIR."
+        }
+      ],
+      "prioridadeProva": 2
+    },
+    {
+      "id": "crile",
+      "nome": "Pinça Crile",
+      "sinonimos": [
+        "Crile",
+        "Crille"
+      ],
+      "bloco": "I2",
+      "grupo": {
+        "v": "hemostasia",
+        "s": "material",
+        "f": [
+          "slides-instr p14",
+          "resumo-instr p3",
+          "apostila-mesa p7"
+        ]
+      },
+      "funcao": {
+        "v": "Pinçar vasos",
+        "s": "material",
+        "f": [
+          "resumo-instr p3"
+        ]
+      },
+      "estrutura": {
+        "v": [
+          "Tamanho semelhante ao da Kelly",
+          "Ponta curta em relação ao cabo",
+          "Argolas e cremalheira"
+        ],
+        "s": "material",
+        "f": [
+          "resumo-instr p3"
+        ]
+      },
+      "ponta": {
+        "v": "Reta ou curva, curta em relação ao cabo",
+        "s": "material",
+        "f": [
+          "resumo-instr p3"
+        ]
+      },
+      "dentes": {
+        "v": false,
+        "s": "material",
+        "f": []
+      },
+      "serrilha": {
+        "v": "total",
+        "s": "material",
+        "f": [
+          "resumo-instr p3"
+        ],
+        "nota": "Ranhuras em TODA a extensão."
+      },
+      "versoes": {
+        "v": [
+          "reta",
+          "curva"
+        ],
+        "s": "material",
+        "f": [
+          "resumo-instr p3"
+        ]
+      },
+      "traumatico": {
+        "v": null,
+        "s": "lacuna",
+        "f": []
+      },
+      "cabo": {
+        "v": "argolas_cremalheira",
+        "s": "material",
+        "f": []
+      },
+      "usos": {
+        "v": [
+          "Hemostasia de vasos"
+        ],
+        "s": "material",
+        "f": [
+          "resumo-instr p3"
+        ]
+      },
+      "reconhecimento": "Igual à Kelly no tamanho, mas com ranhuras em TODA a mandíbula.",
+      "confundeCom": [
+        "kelly",
+        "halsted"
+      ],
+      "imagens": [
+        {
+          "src": "img/instr/crile-reta.png",
+          "tipo": "inteiro",
+          "qualidade": "aceitavel",
+          "fonte": "resumo-instr p4",
+          "nota": "Na foto inteira não dá para ver a extensão da serrilha."
+        },
+        {
+          "src": "img/instr/crile-curva.png",
+          "tipo": "inteiro",
+          "qualidade": "aceitavel",
+          "fonte": "resumo-instr p4"
+        },
+        {
+          "src": "img/instr/kelly-x-crile.png",
+          "tipo": "comparacao",
+          "qualidade": "boa",
+          "fonte": "slides-instr p14"
+        }
+      ],
+      "alertaVisual": "Kelly e Crile são quase iguais na foto inteira. A diferenciação visual só é válida com a ponta ampliada (detalhe da serrilha).",
+      "prioridadeProva": 2
+    },
+    {
+      "id": "mixter",
+      "nome": "Pinça Mixter",
+      "sinonimos": [
+        "Mixter"
+      ],
+      "bloco": "I2",
+      "grupo": {
+        "v": "hemostasia",
+        "s": "material",
+        "f": [
+          "slides-instr p16",
+          "resumo-instr p4",
+          "apostila-mesa p7"
+        ],
+        "nota": "Os slides a classificam em hemostasia, como 'material especial'."
+      },
+      "funcao": {
+        "v": "Pinçar vasos PROFUNDOS (também usada para dissecção e para passar fios por trás de estruturas)",
+        "s": "material",
+        "f": [
+          "resumo-instr p4",
+          "ext"
+        ],
+        "nota": "A parte entre parênteses vem da literatura."
+      },
+      "estrutura": {
+        "v": [
+          "Ponta com curvatura bem acentuada (quase em ângulo reto)",
+          "Ponta curta em relação ao cabo",
+          "Argolas e cremalheira"
+        ],
+        "s": "material",
+        "f": [
+          "resumo-instr p4"
+        ]
+      },
+      "ponta": {
+        "v": "Curvatura acentuada, quase 90°",
+        "s": "material",
+        "f": [
+          "resumo-instr p4"
+        ]
+      },
+      "dentes": {
+        "v": false,
+        "s": "material",
+        "f": []
+      },
+      "serrilha": {
+        "v": "total",
+        "s": "material",
+        "f": [
+          "resumo-instr p4"
+        ]
+      },
+      "versoes": {
+        "v": [
+          "curva"
+        ],
+        "s": "material",
+        "f": [
+          "resumo-instr p4"
+        ]
+      },
+      "traumatico": {
+        "v": null,
+        "s": "lacuna",
+        "f": []
+      },
+      "cabo": {
+        "v": "argolas_cremalheira",
+        "s": "material",
+        "f": []
+      },
+      "usos": {
+        "v": [
+          "Hemostasia em planos profundos",
+          "Passagem de fios para ligadura"
+        ],
+        "s": "material",
+        "f": [
+          "resumo-instr p4",
+          "slides-instr p27",
+          "ext"
+        ]
+      },
+      "reconhecimento": "A ponta faz uma curva fechada, quase em ângulo reto.",
+      "confundeCom": [
+        "kelly"
+      ],
+      "imagens": [
+        {
+          "src": "img/instr/mixter.png",
+          "tipo": "inteiro",
+          "qualidade": "boa",
+          "fonte": "resumo-instr p4",
+          "foco": [
+            21,
+            33
+          ]
+        }
+      ],
+      "prioridadeProva": 2
+    },
+    {
+      "id": "kocher",
+      "nome": "Pinça Kocher",
+      "sinonimos": [
+        "Köcher",
+        "Kocker"
+      ],
+      "bloco": "I3",
+      "grupo": {
+        "v": "preensao",
+        "s": "divergente",
+        "f": [
+          "slides-instr p17",
+          "resumo-instr p2",
+          "apostila-mesa p7",
+          "slides-instr p16"
+        ],
+        "nota": "Está em PREENSÃO nos slides (p17), no resumo e na apostila, mas o slide p17 a chama de 'Köcher (hemostática)' e o p16 a mostra em hemostasia com a legenda '(preensão)'. Grupo principal: preensão; também pode fazer hemostasia.",
+        "aceitaTambem": [
+          "hemostasia"
+        ]
+      },
+      "funcao": {
+        "v": "Preensão firme de tecidos resistentes (pode ser usada em hemostasia)",
+        "s": "material",
+        "f": [
+          "slides-instr p16",
+          "slides-instr p17",
+          "ext"
+        ]
+      },
+      "estrutura": {
+        "v": [
+          "Ranhuras em TODA a extensão da ponta",
+          "Dente de rato na extremidade",
+          "Argolas e cremalheira"
+        ],
+        "s": "material",
+        "f": [
+          "resumo-instr p2"
+        ]
+      },
+      "ponta": {
+        "v": "Serrilhada até o fim, com dente de rato na extremidade",
+        "s": "material",
+        "f": [
+          "resumo-instr p2"
+        ]
+      },
+      "dentes": {
+        "v": true,
+        "s": "material",
+        "f": [
+          "resumo-instr p2"
+        ]
+      },
+      "serrilha": {
+        "v": "total",
+        "s": "material",
+        "f": [
+          "resumo-instr p2"
+        ]
+      },
+      "versoes": {
+        "v": [
+          "reta",
+          "curva"
+        ],
+        "s": "material",
+        "f": [
+          "resumo-instr p2",
+          "instr-cirurgica p1"
+        ]
+      },
+      "traumatico": {
+        "v": true,
+        "s": "externa",
+        "f": [
+          "ext"
+        ],
+        "nota": "O dente na ponta torna a preensão traumática."
+      },
+      "cabo": {
+        "v": "argolas_cremalheira",
+        "s": "material",
+        "f": []
+      },
+      "usos": {
+        "v": [
+          "Preensão de aponeurose e tecidos resistentes"
+        ],
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "reconhecimento": "Parece uma hemostática, mas tem um DENTE DE RATO na ponta.",
+      "confundeCom": [
+        "kelly",
+        "crile",
+        "allis"
+      ],
+      "imagens": [
+        {
+          "src": "img/instr/kocher-reta.png",
+          "tipo": "inteiro",
+          "qualidade": "boa",
+          "fonte": "resumo-instr p3",
+          "foco": [
+            73,
+            16
+          ]
+        },
+        {
+          "src": "img/instr/kocher-curva.png",
+          "tipo": "inteiro",
+          "qualidade": "boa",
+          "fonte": "resumo-instr p3",
+          "nota": "Tem detalhe ampliado da ponta."
+        }
+      ],
+      "prioridadeProva": 2
+    },
+    {
+      "id": "allis",
+      "nome": "Pinça Allis",
+      "sinonimos": [
+        "Allis"
+      ],
+      "bloco": "I3",
+      "grupo": {
+        "v": "preensao",
+        "s": "material",
+        "f": [
+          "slides-instr p18",
+          "resumo-instr p2",
+          "apostila-mesa p7"
+        ]
+      },
+      "funcao": {
+        "v": "Preensão de tecidos; na mesa, usada para montar gaze",
+        "s": "material",
+        "f": [
+          "slides-instr p27",
+          "ext"
+        ]
+      },
+      "estrutura": {
+        "v": [
+          "Ponta que parece uma 'mãozinha'",
+          "Pequenos dentes na extremidade, sem ranhuras ao longo da mandíbula",
+          "Argolas e cremalheira"
+        ],
+        "s": "material",
+        "f": [
+          "resumo-instr p2"
+        ]
+      },
+      "ponta": {
+        "v": "Em 'mãozinha', com pequenos dentes na borda",
+        "s": "material",
+        "f": [
+          "resumo-instr p2"
+        ]
+      },
+      "dentes": {
+        "v": true,
+        "s": "externa",
+        "f": [
+          "ext"
+        ],
+        "nota": "O resumo diz 'não tem ranhuras'; os dentinhos da borda são visíveis no detalhe da imagem e descritos na literatura."
+      },
+      "serrilha": {
+        "v": "ausente",
+        "s": "material",
+        "f": [
+          "resumo-instr p2"
+        ]
+      },
+      "versoes": {
+        "v": [
+          "reta"
+        ],
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "traumatico": {
+        "v": true,
+        "s": "externa",
+        "f": [
+          "ext"
+        ],
+        "nota": "Mais traumática que a Babcock."
+      },
+      "cabo": {
+        "v": "argolas_cremalheira",
+        "s": "material",
+        "f": []
+      },
+      "usos": {
+        "v": [
+          "Preensão de tecidos que serão removidos",
+          "Montar gaze"
+        ],
+        "s": "material",
+        "f": [
+          "slides-instr p27",
+          "ext"
+        ]
+      },
+      "reconhecimento": "Ponta em 'mãozinha' com dentinhos, sem serrilha ao longo da mandíbula.",
+      "confundeCom": [
+        "babcock",
+        "kocher"
+      ],
+      "imagens": [
+        {
+          "src": "img/instr/allis.png",
+          "tipo": "inteiro",
+          "qualidade": "boa",
+          "fonte": "resumo-instr p2",
+          "nota": "Tem detalhe ampliado da ponta.",
+          "foco": [
+            24,
+            18
+          ]
+        }
+      ],
+      "prioridadeProva": 2
+    },
+    {
+      "id": "backhaus",
+      "nome": "Pinça Backhaus",
+      "sinonimos": [
+        "Backaus",
+        "Pinça de campo"
+      ],
+      "bloco": "I3",
+      "grupo": {
+        "v": "preensao",
+        "s": "divergente",
+        "f": [
+          "slides-instr p18",
+          "resumo-instr p3",
+          "apostila-mesa p7",
+          "instr-cirurgica p1"
+        ],
+        "nota": "Preensão nos slides, no resumo e na apostila; 'materiais especiais' na folha de mesa.",
+        "aceitaTambem": [
+          "auxiliar"
+        ]
+      },
+      "funcao": {
+        "v": "Prender os campos cirúrgicos (e o fio de algodão no campo)",
+        "s": "material",
+        "f": [
+          "slides-instr p27"
+        ]
+      },
+      "estrutura": {
+        "v": [
+          "Pontas curvas e pontiagudas que se cruzam",
+          "Argolas e cremalheira"
+        ],
+        "s": "material",
+        "f": [
+          "resumo-instr p3",
+          "ext"
+        ],
+        "nota": "O resumo descreve 'ponta em formato de pinça'; 'pontas pontiagudas que se cruzam' vem da imagem e da literatura."
+      },
+      "ponta": {
+        "v": "Duas pontas curvas e afiadas, em garra",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "dentes": {
+        "v": null,
+        "s": "material",
+        "f": [],
+        "nota": "Não tem dentes: as próprias pontas são perfurantes."
+      },
+      "serrilha": {
+        "v": "ausente",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "versoes": {
+        "v": [],
+        "s": "material",
+        "f": []
+      },
+      "traumatico": {
+        "v": true,
+        "s": "externa",
+        "f": [
+          "ext"
+        ],
+        "nota": "Perfura; por isso é usada em campos, não em tecidos nobres."
+      },
+      "cabo": {
+        "v": "argolas_cremalheira",
+        "s": "material",
+        "f": []
+      },
+      "usos": {
+        "v": [
+          "Fixação dos campos cirúrgicos"
+        ],
+        "s": "material",
+        "f": [
+          "slides-instr p27"
+        ]
+      },
+      "reconhecimento": "Pinça CURTA com pontas em garra que se cruzam, usada nos campos.",
+      "confundeCom": [
+        "pozzi"
+      ],
+      "imagens": [
+        {
+          "src": "img/instr/backhaus.png",
+          "tipo": "inteiro",
+          "qualidade": "aceitavel",
+          "fonte": "resumo-instr p3"
+        },
+        {
+          "src": "img/instr/backhaus-2.png",
+          "tipo": "inteiro",
+          "qualidade": "boa",
+          "fonte": "instr-cirurgica p1",
+          "nota": "Tem detalhe ampliado da ponta.",
+          "foco": [
+            26,
+            22
+          ]
+        }
+      ],
+      "prioridadeProva": 2
+    },
+    {
+      "id": "babcock",
+      "nome": "Pinça Babcock",
+      "sinonimos": [
+        "Babcock"
+      ],
+      "bloco": "I3",
+      "grupo": {
+        "v": "preensao",
+        "s": "material",
+        "f": [
+          "resumo-instr p3",
+          "apostila-mesa p7"
+        ]
+      },
+      "funcao": {
+        "v": "Preensão delicada de estruturas tubulares e vísceras (ex.: alças intestinais)",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "estrutura": {
+        "v": [
+          "Ponta em formato de pinça QUADRADA / triangular fenestrada",
+          "Sem dentes",
+          "Argolas e cremalheira"
+        ],
+        "s": "material",
+        "f": [
+          "resumo-instr p3",
+          "ext"
+        ]
+      },
+      "ponta": {
+        "v": "Quadrada, larga e fenestrada",
+        "s": "material",
+        "f": [
+          "resumo-instr p3"
+        ]
+      },
+      "dentes": {
+        "v": false,
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "serrilha": {
+        "v": "ausente",
+        "s": "externa",
+        "f": [
+          "ext"
+        ],
+        "nota": "Tem ranhuras transversais finas apenas na borda, segundo alguns fabricantes."
+      },
+      "versoes": {
+        "v": [
+          "reta"
+        ],
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "traumatico": {
+        "v": false,
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "cabo": {
+        "v": "argolas_cremalheira",
+        "s": "material",
+        "f": []
+      },
+      "usos": {
+        "v": [
+          "Alças intestinais, tubas, apêndice"
+        ],
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "reconhecimento": "Ponta larga e 'quadrada', vazada, sem dentes: a versão atraumática da Allis.",
+      "confundeCom": [
+        "allis",
+        "duval"
+      ],
+      "imagens": [
+        {
+          "src": "img/instr/babcock.png",
+          "tipo": "inteiro",
+          "qualidade": "aceitavel",
+          "fonte": "resumo-instr p3",
+          "nota": "Imagem pequena (340 px); o detalhe da ponta é quase ilegível."
+        }
+      ],
+      "prioridadeProva": 2
+    },
+    {
+      "id": "duval",
+      "nome": "Pinça Duval",
+      "sinonimos": [
+        "Duval-Collin"
+      ],
+      "bloco": "I3",
+      "grupo": {
+        "v": "preensao",
+        "s": "divergente",
+        "f": [
+          "slides-instr p27",
+          "ext"
+        ],
+        "nota": "Os slides a listam como 'material especial'. Pela função (segurar vísceras), a literatura a classifica como preensão, que é como ela está na sua lista.",
+        "aceitaTambem": [
+          "auxiliar"
+        ]
+      },
+      "funcao": {
+        "v": "Preensão atraumática de vísceras (pulmão, intestino)",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "estrutura": {
+        "v": [
+          "Ponta TRIANGULAR fenestrada ('coração triangular')",
+          "Argolas e cremalheira"
+        ],
+        "s": "material",
+        "f": [
+          "slides-instr p27",
+          "ext"
+        ]
+      },
+      "ponta": {
+        "v": "Triangular, vazada, com ranhuras finas",
+        "s": "material",
+        "f": [
+          "slides-instr p27"
+        ],
+        "nota": "Slides: 'Duval (coração triangular)'."
+      },
+      "dentes": {
+        "v": false,
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "serrilha": {
+        "v": null,
+        "s": "lacuna",
+        "f": [],
+        "nota": "Os materiais não descrevem a serrilha da Duval."
+      },
+      "versoes": {
+        "v": [],
+        "s": "lacuna",
+        "f": []
+      },
+      "traumatico": {
+        "v": false,
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "cabo": {
+        "v": "argolas_cremalheira",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "usos": {
+        "v": [
+          "Cirurgia torácica (pulmão)",
+          "Cirurgia abdominal (alças)"
+        ],
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "reconhecimento": "Ponta grande em TRIÂNGULO vazado, como um coração.",
+      "confundeCom": [
+        "babcock"
+      ],
+      "imagens": [],
+      "alerta": "SEM FOTOGRAFIA nos materiais. Só aparece como texto no slide p27. O jogo não fará identificação visual dela até uma imagem ser adicionada.",
+      "prioridadeProva": 2
+    },
+    {
+      "id": "pozzi",
+      "nome": "Pinça Pozzi",
+      "sinonimos": [
+        "Pozzi"
+      ],
+      "bloco": "I3",
+      "grupo": {
+        "v": "preensao",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "funcao": {
+        "v": "Preensão do colo uterino",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "estrutura": {
+        "v": [
+          "Haste longa",
+          "Ponta com dois dentes finos e pontiagudos (de cada lado)",
+          "Argolas e cremalheira"
+        ],
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "ponta": {
+        "v": "Dentes pontiagudos em garra",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "dentes": {
+        "v": true,
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "serrilha": {
+        "v": "ausente",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "versoes": {
+        "v": [
+          "reta",
+          "curva"
+        ],
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "traumatico": {
+        "v": true,
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "cabo": {
+        "v": "argolas_cremalheira",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "usos": {
+        "v": [
+          "Ginecologia: tracionar o colo do útero"
+        ],
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "reconhecimento": "Longa, com pontas em garra pontiaguda: lembra uma Backhaus comprida.",
+      "confundeCom": [
+        "backhaus"
+      ],
+      "imagens": [],
+      "alerta": "NÃO APARECE em nenhum material (nem texto nem foto). Toda a ficha vem de referência externa. Confirme se ela realmente cai na prova.",
+      "prioridadeProva": 1
+    },
+    {
+      "id": "mayo-hegar",
+      "nome": "Porta-agulha Mayo-Hegar",
+      "sinonimos": [
+        "Mayo-Hegar"
+      ],
+      "bloco": "I4",
+      "grupo": {
+        "v": "sintese",
+        "s": "material",
+        "f": [
+          "slides-instr p21",
+          "resumo-instr p8",
+          "apostila-mesa p8"
+        ]
+      },
+      "funcao": {
+        "v": "Segurar e conduzir a agulha de sutura",
+        "s": "material",
+        "f": [
+          "slides-instr p21",
+          "apostila-sutura p4"
+        ]
+      },
+      "estrutura": {
+        "v": [
+          "Cabo em forma de TESOURA (argolas)",
+          "Cremalheira",
+          "Ponta com sulco central e ranhuras cruzadas"
+        ],
+        "s": "material",
+        "f": [
+          "resumo-instr p8"
+        ]
+      },
+      "ponta": {
+        "v": "Curta e robusta, com rachado no meio e ranhuras cruzadas",
+        "s": "material",
+        "f": [
+          "resumo-instr p8"
+        ]
+      },
+      "dentes": {
+        "v": false,
+        "s": "material",
+        "f": []
+      },
+      "serrilha": {
+        "v": "cruzada",
+        "s": "material",
+        "f": [
+          "resumo-instr p8"
+        ]
+      },
+      "versoes": {
+        "v": [
+          "reto"
+        ],
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "traumatico": {
+        "v": null,
+        "s": "material",
+        "f": []
+      },
+      "cabo": {
+        "v": "argolas_cremalheira",
+        "s": "material",
+        "f": [
+          "resumo-instr p8"
+        ]
+      },
+      "usos": {
+        "v": [
+          "Suturas em geral",
+          "Pega: 1º e 4º dedos nas argolas"
+        ],
+        "s": "material",
+        "f": [
+          "apostila-sutura p4"
+        ]
+      },
+      "reconhecimento": "Parece uma hemostática, mas a ponta é curta e grossa, com ranhuras cruzadas; o cabo tem argolas.",
+      "confundeCom": [
+        "mathieu",
+        "kelly"
+      ],
+      "imagens": [
+        {
+          "src": "img/instr/mayo-hegar.png",
+          "tipo": "inteiro",
+          "qualidade": "boa",
+          "fonte": "resumo-instr p8",
+          "foco": [
+            21,
+            25
+          ]
+        },
+        {
+          "src": "img/instr/mayo-hegar-2.png",
+          "tipo": "inteiro",
+          "qualidade": "boa",
+          "fonte": "slides-instr p21"
+        }
+      ],
+      "prioridadeProva": 2
+    },
+    {
+      "id": "mathieu",
+      "nome": "Porta-agulha Mathieu",
+      "sinonimos": [
+        "Mathieu"
+      ],
+      "bloco": "I4",
+      "grupo": {
+        "v": "sintese",
+        "s": "material",
+        "f": [
+          "slides-instr p21",
+          "resumo-instr p8",
+          "apostila-mesa p8"
+        ]
+      },
+      "funcao": {
+        "v": "Segurar e conduzir a agulha de sutura",
+        "s": "material",
+        "f": [
+          "slides-instr p21"
+        ]
+      },
+      "estrutura": {
+        "v": [
+          "Cabo em forma de PINÇA (sem argolas), com mola",
+          "Trava na extremidade do cabo",
+          "Ponta com sulco central e ranhuras cruzadas"
+        ],
+        "s": "material",
+        "f": [
+          "resumo-instr p8",
+          "ext"
+        ]
+      },
+      "ponta": {
+        "v": "Curta, com rachado no meio e ranhuras cruzadas",
+        "s": "material",
+        "f": [
+          "resumo-instr p8"
+        ]
+      },
+      "dentes": {
+        "v": false,
+        "s": "material",
+        "f": []
+      },
+      "serrilha": {
+        "v": "cruzada",
+        "s": "material",
+        "f": [
+          "resumo-instr p8"
+        ]
+      },
+      "versoes": {
+        "v": [
+          "reto"
+        ],
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "traumatico": {
+        "v": null,
+        "s": "material",
+        "f": []
+      },
+      "cabo": {
+        "v": "pinca_mola",
+        "s": "material",
+        "f": [
+          "resumo-instr p8"
+        ]
+      },
+      "usos": {
+        "v": [
+          "Suturas com fios mais grossos (empunhadura palmar)"
+        ],
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "reconhecimento": "Porta-agulha SEM argolas: o cabo curvo é segurado na palma, como uma pinça.",
+      "confundeCom": [
+        "mayo-hegar"
+      ],
+      "imagens": [
+        {
+          "src": "img/instr/mathieu.png",
+          "tipo": "inteiro",
+          "qualidade": "boa",
+          "fonte": "resumo-instr p8",
+          "foco": [
+            23,
+            16
+          ]
+        },
+        {
+          "src": "img/instr/mathieu-2.png",
+          "tipo": "inteiro",
+          "qualidade": "boa",
+          "fonte": "slides-instr p21"
+        }
+      ],
+      "prioridadeProva": 2
+    },
+    {
+      "id": "pinca-anatomica",
+      "nome": "Pinça anatômica",
+      "sinonimos": [
+        "Pinça de dissecção sem dente"
+      ],
+      "bloco": "I4",
+      "grupo": {
+        "v": "sintese",
+        "s": "divergente",
+        "f": [
+          "slides-instr p23",
+          "resumo-instr p2",
+          "apostila-mesa p7"
+        ],
+        "nota": "SÍNTESE nos slides do professor (p23 e p27). PREENSÃO no resumo de instrumentação e na apostila de mesa. O jogo usa síntese e mostra a alternativa.",
+        "aceitaTambem": [
+          "preensao"
+        ]
+      },
+      "funcao": {
+        "v": "Segurar tecidos delicados e manipular o fio durante a sutura",
+        "s": "material",
+        "f": [
+          "apostila-sutura p5"
+        ],
+        "nota": "'Manuseie o fio exclusivamente com o porta-agulha e a pinça anatômica'."
+      },
+      "estrutura": {
+        "v": [
+          "Duas hastes unidas por mola (abre sozinha)",
+          "Ponta SEM dentes, com ranhuras transversais"
+        ],
+        "s": "material",
+        "f": [
+          "resumo-instr p2",
+          "ext"
+        ]
+      },
+      "ponta": {
+        "v": "Romba, com ranhuras, sem dentes",
+        "s": "material",
+        "f": [
+          "resumo-instr p2"
+        ]
+      },
+      "dentes": {
+        "v": false,
+        "s": "material",
+        "f": [
+          "slides-instr p23"
+        ]
+      },
+      "serrilha": {
+        "v": "total",
+        "s": "externa",
+        "f": [
+          "ext"
+        ],
+        "nota": "Ranhuras transversais na face interna da ponta."
+      },
+      "versoes": {
+        "v": [
+          "reta"
+        ],
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "traumatico": {
+        "v": false,
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "cabo": {
+        "v": "pinca_mola",
+        "s": "material",
+        "f": []
+      },
+      "usos": {
+        "v": [
+          "Manipular o fio",
+          "Tecidos delicados, vísceras, vasos"
+        ],
+        "s": "material",
+        "f": [
+          "apostila-sutura p5",
+          "ext"
+        ]
+      },
+      "reconhecimento": "Pinça de mola com ponta lisa/estriada e SEM dente.",
+      "confundeCom": [
+        "dente-de-rato",
+        "adson-sem-dentes"
+      ],
+      "imagens": [
+        {
+          "src": "img/instr/anatomica.png",
+          "tipo": "inteiro",
+          "qualidade": "boa",
+          "fonte": "resumo-instr p2",
+          "nota": "Tem detalhe da ponta.",
+          "foco": [
+            17,
+            13
+          ]
+        },
+        {
+          "src": "img/instr/anatomica-2.png",
+          "tipo": "inteiro",
+          "qualidade": "boa",
+          "fonte": "slides-instr p23"
+        }
+      ],
+      "prioridadeProva": 2
+    },
+    {
+      "id": "dente-de-rato",
+      "nome": "Pinça dente de rato",
+      "sinonimos": [
+        "Pinça de dissecção com dente"
+      ],
+      "bloco": "I4",
+      "grupo": {
+        "v": "sintese",
+        "s": "divergente",
+        "f": [
+          "slides-instr p23",
+          "resumo-instr p2",
+          "apostila-mesa p7"
+        ],
+        "nota": "Mesma divergência da pinça anatômica.",
+        "aceitaTambem": [
+          "preensao"
+        ]
+      },
+      "funcao": {
+        "v": "Expor e segurar o tecido durante a sutura (pele)",
+        "s": "material",
+        "f": [
+          "resumo-instr p2",
+          "apostila-sutura p10"
+        ]
+      },
+      "estrutura": {
+        "v": [
+          "Duas hastes unidas por mola",
+          "Ponta com DENTE: 1 dente de um lado que encaixa em 2 do outro"
+        ],
+        "s": "material",
+        "f": [
+          "resumo-instr p2",
+          "ext"
+        ],
+        "nota": "O esquema 1×2 dentes vem da literatura."
+      },
+      "ponta": {
+        "v": "Com dente de rato na extremidade",
+        "s": "material",
+        "f": [
+          "resumo-instr p2"
+        ]
+      },
+      "dentes": {
+        "v": true,
+        "s": "material",
+        "f": [
+          "slides-instr p23"
+        ]
+      },
+      "serrilha": {
+        "v": "ausente",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "versoes": {
+        "v": [
+          "reta"
+        ],
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "traumatico": {
+        "v": true,
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "cabo": {
+        "v": "pinca_mola",
+        "s": "material",
+        "f": []
+      },
+      "usos": {
+        "v": [
+          "Sutura de pele",
+          "Expor as bordas no ponto intradérmico"
+        ],
+        "s": "material",
+        "f": [
+          "resumo-instr p2",
+          "apostila-sutura p10"
+        ]
+      },
+      "reconhecimento": "Pinça de mola com DENTE na ponta.",
+      "confundeCom": [
+        "pinca-anatomica",
+        "adson-com-dentes"
+      ],
+      "imagens": [
+        {
+          "src": "img/instr/dente-de-rato.png",
+          "tipo": "inteiro",
+          "qualidade": "aceitavel",
+          "fonte": "resumo-instr p2",
+          "nota": "Tem detalhe da ponta, pequeno."
+        },
+        {
+          "src": "img/instr/dente-de-rato-2.png",
+          "tipo": "inteiro",
+          "qualidade": "boa",
+          "fonte": "slides-instr p23",
+          "foco": [
+            8,
+            87
+          ]
+        }
+      ],
+      "prioridadeProva": 2
+    },
+    {
+      "id": "adson-com-dentes",
+      "nome": "Pinça Adson com dentes",
+      "sinonimos": [
+        "Adson com dente"
+      ],
+      "bloco": "I4",
+      "grupo": {
+        "v": "sintese",
+        "s": "material",
+        "f": [
+          "slides-instr p24",
+          "resumo-instr p8"
+        ]
+      },
+      "funcao": {
+        "v": "Segurar a pele e tecidos delicados em suturas finas",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "estrutura": {
+        "v": [
+          "Pinça de mola pequena",
+          "Corpo LARGO com área serrilhada para os dedos",
+          "Ponta estreita e fina, com dente de rato"
+        ],
+        "s": "material",
+        "f": [
+          "resumo-instr p8",
+          "ext"
+        ]
+      },
+      "ponta": {
+        "v": "Fina, lisa, com dente de rato",
+        "s": "material",
+        "f": [
+          "resumo-instr p8"
+        ]
+      },
+      "dentes": {
+        "v": true,
+        "s": "material",
+        "f": [
+          "slides-instr p24"
+        ]
+      },
+      "serrilha": {
+        "v": "ausente",
+        "s": "material",
+        "f": [
+          "resumo-instr p8"
+        ]
+      },
+      "versoes": {
+        "v": [
+          "reta"
+        ],
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "traumatico": {
+        "v": true,
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "cabo": {
+        "v": "pinca_mola",
+        "s": "material",
+        "f": []
+      },
+      "usos": {
+        "v": [
+          "Sutura de pele delicada (face, plástica)"
+        ],
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "reconhecimento": "Corpo largo que afina bruscamente; a ponta fina tem dente.",
+      "confundeCom": [
+        "adson-sem-dentes",
+        "dente-de-rato"
+      ],
+      "imagens": [
+        {
+          "src": "img/instr/adson-com-dentes.png",
+          "tipo": "inteiro",
+          "qualidade": "boa",
+          "fonte": "resumo-instr p8",
+          "nota": "O dente é pequeno; precisa de zoom.",
+          "foco": [
+            24,
+            15
+          ]
+        }
+      ],
+      "prioridadeProva": 2
+    },
+    {
+      "id": "adson-sem-dentes",
+      "nome": "Pinça Adson sem dentes",
+      "sinonimos": [
+        "Adson com ranhuras",
+        "Adson anatômica"
+      ],
+      "bloco": "I4",
+      "grupo": {
+        "v": "sintese",
+        "s": "material",
+        "f": [
+          "slides-instr p24",
+          "resumo-instr p8"
+        ]
+      },
+      "funcao": {
+        "v": "Segurar tecidos delicados sem traumatizar",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "estrutura": {
+        "v": [
+          "Pinça de mola pequena",
+          "Corpo largo que afina bruscamente",
+          "Ponta fina com ranhuras (serrilhada), sem dente"
+        ],
+        "s": "material",
+        "f": [
+          "resumo-instr p8",
+          "slides-instr p24"
+        ]
+      },
+      "ponta": {
+        "v": "Fina e serrilhada",
+        "s": "material",
+        "f": [
+          "resumo-instr p8"
+        ]
+      },
+      "dentes": {
+        "v": false,
+        "s": "material",
+        "f": [
+          "slides-instr p24"
+        ]
+      },
+      "serrilha": {
+        "v": "total",
+        "s": "material",
+        "f": [
+          "resumo-instr p8"
+        ],
+        "nota": "'Pode ser só uma parte ou toda serrilhada'."
+      },
+      "versoes": {
+        "v": [
+          "reta"
+        ],
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "traumatico": {
+        "v": false,
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "cabo": {
+        "v": "pinca_mola",
+        "s": "material",
+        "f": []
+      },
+      "usos": {
+        "v": [
+          "Tecidos delicados, sutura fina"
+        ],
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "reconhecimento": "Formato de Adson (corpo largo, ponta fina) com ponta serrilhada e sem dente.",
+      "confundeCom": [
+        "adson-com-dentes",
+        "pinca-anatomica"
+      ],
+      "imagens": [
+        {
+          "src": "img/instr/adson-sem-dentes.png",
+          "tipo": "inteiro",
+          "qualidade": "boa",
+          "fonte": "resumo-instr p8",
+          "foco": [
+            12,
+            46
+          ]
+        }
+      ],
+      "prioridadeProva": 2
+    },
+    {
+      "id": "farabeuf",
+      "nome": "Afastador Farabeuf",
+      "sinonimos": [
+        "Farabeuf"
+      ],
+      "bloco": "I5",
+      "grupo": {
+        "v": "afastamento",
+        "s": "material",
+        "f": [
+          "slides-instr p19",
+          "resumo-instr p5",
+          "apostila-mesa p8"
+        ]
+      },
+      "afastadorTipo": {
+        "v": "dinamico",
+        "s": "material",
+        "f": [
+          "slides-instr p19",
+          "resumo-instr p5"
+        ]
+      },
+      "funcao": {
+        "v": "Afastar manualmente as bordas da incisão (planos superficiais)",
+        "s": "material",
+        "f": [
+          "resumo-instr p5",
+          "ext"
+        ]
+      },
+      "estrutura": {
+        "v": [
+          "Lâmina metálica em forma de colchete [",
+          "Duas extremidades dobradas de tamanhos diferentes",
+          "Usado em par"
+        ],
+        "s": "material",
+        "f": [
+          "resumo-instr p5",
+          "ext"
+        ]
+      },
+      "ponta": {
+        "v": "Extremidades dobradas em ângulo reto",
+        "s": "material",
+        "f": [
+          "resumo-instr p5"
+        ]
+      },
+      "dentes": {
+        "v": false,
+        "s": "material",
+        "f": []
+      },
+      "serrilha": {
+        "v": "na",
+        "s": "material",
+        "f": []
+      },
+      "versoes": {
+        "v": [],
+        "s": "material",
+        "f": []
+      },
+      "traumatico": {
+        "v": null,
+        "s": "material",
+        "f": []
+      },
+      "cabo": {
+        "v": "manual",
+        "s": "material",
+        "f": []
+      },
+      "usos": {
+        "v": [
+          "Afastar pele e subcutâneo"
+        ],
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "reconhecimento": "Peça única em forma de colchete [, sem cabo separado; vem em par.",
+      "confundeCom": [
+        "doyen",
+        "maleavel"
+      ],
+      "imagens": [
+        {
+          "src": "img/instr/farabeuf.png",
+          "tipo": "inteiro",
+          "qualidade": "boa",
+          "fonte": "resumo p9",
+          "foco": [
+            50,
+            50
+          ]
+        },
+        {
+          "src": "img/instr/farabeuf-par.png",
+          "tipo": "inteiro",
+          "qualidade": "boa",
+          "fonte": "instr-cirurgica p1"
+        }
+      ],
+      "prioridadeProva": 2
+    },
+    {
+      "id": "doyen",
+      "nome": "Afastador Doyen",
+      "sinonimos": [
+        "Válvula de Doyen"
+      ],
+      "bloco": "I5",
+      "grupo": {
+        "v": "afastamento",
+        "s": "material",
+        "f": [
+          "slides-instr p19",
+          "resumo-instr p5",
+          "apostila-mesa p8"
+        ]
+      },
+      "afastadorTipo": {
+        "v": "dinamico",
+        "s": "material",
+        "f": [
+          "slides-instr p19",
+          "resumo-instr p5"
+        ]
+      },
+      "funcao": {
+        "v": "Afastar manualmente estruturas profundas (parede abdominal, vísceras)",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "estrutura": {
+        "v": [
+          "Cabo (pegador) separado",
+          "Lâmina larga e côncava, com curvatura de 90°"
+        ],
+        "s": "material",
+        "f": [
+          "resumo-instr p5"
+        ]
+      },
+      "ponta": {
+        "v": "Lâmina larga curvada a 90°",
+        "s": "material",
+        "f": [
+          "resumo-instr p5"
+        ]
+      },
+      "dentes": {
+        "v": false,
+        "s": "material",
+        "f": []
+      },
+      "serrilha": {
+        "v": "na",
+        "s": "material",
+        "f": []
+      },
+      "versoes": {
+        "v": [],
+        "s": "material",
+        "f": []
+      },
+      "traumatico": {
+        "v": null,
+        "s": "material",
+        "f": []
+      },
+      "cabo": {
+        "v": "manual",
+        "s": "material",
+        "f": []
+      },
+      "usos": {
+        "v": [
+          "Cirurgias abdominais e pélvicas"
+        ],
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "reconhecimento": "Tem PEGADOR e uma lâmina larga dobrada a 90°.",
+      "confundeCom": [
+        "farabeuf",
+        "maleavel"
+      ],
+      "imagens": [
+        {
+          "src": "img/instr/doyen.png",
+          "tipo": "inteiro",
+          "qualidade": "boa",
+          "fonte": "resumo p9",
+          "foco": [
+            15,
+            77
+          ]
+        },
+        {
+          "src": "img/instr/doyen-2.png",
+          "tipo": "inteiro",
+          "qualidade": "boa",
+          "fonte": "resumo-instr p5"
+        }
+      ],
+      "prioridadeProva": 2
+    },
+    {
+      "id": "finochietto",
+      "nome": "Afastador Finochietto",
+      "sinonimos": [
+        "Finochietto"
+      ],
+      "bloco": "I5",
+      "grupo": {
+        "v": "afastamento",
+        "s": "material",
+        "f": [
+          "slides-instr p20",
+          "resumo-instr p6"
+        ]
+      },
+      "afastadorTipo": {
+        "v": "autoestatico",
+        "s": "material",
+        "f": [
+          "slides-instr p20",
+          "resumo-instr p6"
+        ]
+      },
+      "funcao": {
+        "v": "Manter aberta a cavidade sem precisar de auxiliar (afastador de costelas, tórax)",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "estrutura": {
+        "v": [
+          "Barra RETA dentada (cremalheira)",
+          "Duas valvas",
+          "Manivela para abrir"
+        ],
+        "s": "material",
+        "f": [
+          "resumo-instr p6",
+          "ext"
+        ]
+      },
+      "ponta": {
+        "v": "Valvas que se afastam ao longo de uma barra reta",
+        "s": "material",
+        "f": [
+          "resumo-instr p6"
+        ]
+      },
+      "dentes": {
+        "v": null,
+        "s": "material",
+        "f": []
+      },
+      "serrilha": {
+        "v": "na",
+        "s": "material",
+        "f": []
+      },
+      "versoes": {
+        "v": [],
+        "s": "material",
+        "f": []
+      },
+      "traumatico": {
+        "v": null,
+        "s": "material",
+        "f": []
+      },
+      "cabo": {
+        "v": "cremalheira_manivela",
+        "s": "material",
+        "f": []
+      },
+      "usos": {
+        "v": [
+          "Toracotomia (afastar costelas)"
+        ],
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "reconhecimento": "Barra RETA com dentes e manivela.",
+      "confundeCom": [
+        "gosset"
+      ],
+      "imagens": [
+        {
+          "src": "img/instr/finochietto.png",
+          "tipo": "inteiro",
+          "qualidade": "boa",
+          "fonte": "resumo p9",
+          "foco": [
+            35,
+            65
+          ]
+        },
+        {
+          "src": "img/instr/finochietto-2.png",
+          "tipo": "inteiro",
+          "qualidade": "boa",
+          "fonte": "resumo-instr p6"
+        }
+      ],
+      "prioridadeProva": 2
+    },
+    {
+      "id": "gosset",
+      "nome": "Afastador Gosset",
+      "sinonimos": [
+        "Gosset"
+      ],
+      "bloco": "I5",
+      "grupo": {
+        "v": "afastamento",
+        "s": "material",
+        "f": [
+          "slides-instr p20",
+          "resumo-instr p6"
+        ]
+      },
+      "afastadorTipo": {
+        "v": "autoestatico",
+        "s": "material",
+        "f": [
+          "slides-instr p20",
+          "resumo-instr p6"
+        ]
+      },
+      "funcao": {
+        "v": "Manter aberta a parede abdominal sem auxiliar",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "estrutura": {
+        "v": [
+          "Duas valvas CURVAS",
+          "Correm sobre barras paralelas, travadas por parafuso"
+        ],
+        "s": "material",
+        "f": [
+          "resumo-instr p6",
+          "ext"
+        ]
+      },
+      "ponta": {
+        "v": "Valvas curvas",
+        "s": "material",
+        "f": [
+          "resumo-instr p6"
+        ]
+      },
+      "dentes": {
+        "v": null,
+        "s": "material",
+        "f": []
+      },
+      "serrilha": {
+        "v": "na",
+        "s": "material",
+        "f": []
+      },
+      "versoes": {
+        "v": [],
+        "s": "material",
+        "f": []
+      },
+      "traumatico": {
+        "v": null,
+        "s": "material",
+        "f": []
+      },
+      "cabo": {
+        "v": "outro",
+        "s": "material",
+        "f": []
+      },
+      "usos": {
+        "v": [
+          "Laparotomia"
+        ],
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "reconhecimento": "Valvas CURVAS em barras paralelas (sem barra dentada).",
+      "confundeCom": [
+        "finochietto"
+      ],
+      "imagens": [
+        {
+          "src": "img/instr/gosset.png",
+          "tipo": "inteiro",
+          "qualidade": "boa",
+          "fonte": "resumo-instr p6",
+          "foco": [
+            36,
+            20
+          ]
+        },
+        {
+          "src": "img/instr/gosset-2.png",
+          "tipo": "inteiro",
+          "qualidade": "boa",
+          "fonte": "resumo p9"
+        }
+      ],
+      "prioridadeProva": 2
+    },
+    {
+      "id": "maleavel",
+      "nome": "Afastador maleável",
+      "sinonimos": [
+        "Válvula maleável",
+        "Espátula maleável"
+      ],
+      "bloco": "I5",
+      "grupo": {
+        "v": "afastamento",
+        "s": "material",
+        "f": [
+          "resumo-instr p5",
+          "apostila-mesa p8",
+          "slides-instr p27"
+        ]
+      },
+      "afastadorTipo": {
+        "v": "dinamico",
+        "s": "externa",
+        "f": [
+          "ext"
+        ],
+        "nota": "Os materiais não dizem; como é segurado à mão, é dinâmico."
+      },
+      "funcao": {
+        "v": "Afastar vísceras, moldado no formato desejado",
+        "s": "material",
+        "f": [
+          "resumo-instr p5"
+        ]
+      },
+      "estrutura": {
+        "v": [
+          "Lâmina metálica lisa e flexível",
+          "Pode ser toda entortada no formato desejado"
+        ],
+        "s": "material",
+        "f": [
+          "resumo-instr p5"
+        ]
+      },
+      "ponta": {
+        "v": "Arredondada, plana",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "dentes": {
+        "v": false,
+        "s": "material",
+        "f": []
+      },
+      "serrilha": {
+        "v": "na",
+        "s": "material",
+        "f": []
+      },
+      "versoes": {
+        "v": [],
+        "s": "material",
+        "f": []
+      },
+      "traumatico": {
+        "v": null,
+        "s": "material",
+        "f": []
+      },
+      "cabo": {
+        "v": "manual",
+        "s": "material",
+        "f": []
+      },
+      "usos": {
+        "v": [
+          "Proteger e afastar alças intestinais"
+        ],
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "reconhecimento": "Fita metálica reta e lisa, sem dobras fixas.",
+      "confundeCom": [
+        "doyen",
+        "farabeuf"
+      ],
+      "imagens": [
+        {
+          "src": "img/instr/maleavel.png",
+          "tipo": "inteiro",
+          "qualidade": "boa",
+          "fonte": "resumo-instr p5",
+          "foco": [
+            50,
+            40
+          ]
+        }
+      ],
+      "prioridadeProva": 2
+    },
+    {
+      "id": "cheron",
+      "nome": "Pinça Cheron",
+      "sinonimos": [
+        "Sheron"
+      ],
+      "bloco": "I5",
+      "grupo": {
+        "v": "auxiliar",
+        "s": "material",
+        "f": [
+          "resumo-instr p7",
+          "apostila-mesa p8",
+          "instr-cirurgica p1",
+          "slides-instr p27"
+        ]
+      },
+      "funcao": {
+        "v": "Manipular gazes para antissepsia (montada com gaze)",
+        "s": "material",
+        "f": [
+          "resumo-instr p7",
+          "slides-instr p27",
+          "roteiro p2"
+        ]
+      },
+      "estrutura": {
+        "v": [
+          "Haste longa e angulada (em baioneta)",
+          "Ponta com ranhuras e fenestra para prender a gaze",
+          "Argolas e cremalheira"
+        ],
+        "s": "material",
+        "f": [
+          "resumo-instr p7",
+          "ext"
+        ]
+      },
+      "ponta": {
+        "v": "Ovalada, fenestrada, com ranhuras",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "dentes": {
+        "v": false,
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "serrilha": {
+        "v": "total",
+        "s": "externa",
+        "f": [
+          "ext"
+        ]
+      },
+      "versoes": {
+        "v": [],
+        "s": "material",
+        "f": []
+      },
+      "traumatico": {
+        "v": null,
+        "s": "material",
+        "f": []
+      },
+      "cabo": {
+        "v": "argolas_cremalheira",
+        "s": "material",
+        "f": []
+      },
+      "usos": {
+        "v": [
+          "Antissepsia do campo operatório",
+          "Sondagem vesical (pacote de cateterismo)"
+        ],
+        "s": "material",
+        "f": [
+          "resumo p26",
+          "roteiro p2"
+        ]
+      },
+      "reconhecimento": "Pinça longa com cabo ANGULADO e ponta fenestrada para segurar gaze.",
+      "confundeCom": [
+        "allis"
+      ],
+      "imagens": [
+        {
+          "src": "img/instr/cheron.png",
+          "tipo": "inteiro",
+          "qualidade": "boa",
+          "fonte": "resumo-instr p7",
+          "nota": "Tem detalhe da ponta.",
+          "foco": [
+            23,
+            23
+          ]
+        },
+        {
+          "src": "img/instr/cheron-2.png",
+          "tipo": "inteiro",
+          "qualidade": "boa",
+          "fonte": "instr-cirurgica p1"
+        }
+      ],
+      "prioridadeProva": 2
+    }
+  ]
+}

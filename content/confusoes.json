@@ -1,0 +1,293 @@
+{
+  "_leia": "Pares e grupos que mais confundem. 'atributos' lista os campos da ficha que DIFEREM entre eles; 'chave' é a frase curta que resolve a dúvida. 'imagemComparacao' só existe quando há uma foto que mostra os dois lado a lado.",
+  "itens": [
+    {
+      "id": "categute-simples-x-cromado",
+      "itens": [
+        "categute-simples",
+        "categute-cromado"
+      ],
+      "atributos": [
+        "composicao",
+        "tempoAbsorcao",
+        "diferencial"
+      ],
+      "chave": "O cromado é tratado com sais de crômio: é absorvido mais devagar (≈ 20 dias contra ≈ 8 do simples) e é mais resistente."
+    },
+    {
+      "id": "vicryl-x-dexon",
+      "itens": [
+        "vicryl",
+        "dexon"
+      ],
+      "atributos": [
+        "composicao",
+        "tempoAbsorcao",
+        "indicacoes"
+      ],
+      "chave": "Ambos são sintéticos, absorvíveis, multifilamentares e hidrolisados. Vicryl = poliglactina 910 (glicólico + láctico), ≈ 60 dias, o mais resistente dos absorvíveis. Dexon = ácido poliglicólico puro, 60–90 dias, músculo e fáscia."
+    },
+    {
+      "id": "monocryl-x-pds",
+      "itens": [
+        "monocryl",
+        "pds"
+      ],
+      "atributos": [
+        "resistenciaTensil",
+        "tempoAbsorcao",
+        "indicacoes",
+        "memoria"
+      ],
+      "chave": "Os dois são monofilamentares absorvíveis. Monocryl perde a força RÁPIDO (meia-vida ≈ 2 semanas): intradérmica e plástica. PDS segura por MAIS tempo (≈ 5 semanas, absorção lenta): parede abdominal e tendões."
+    },
+    {
+      "id": "pds-x-poligliconato",
+      "itens": [
+        "pds",
+        "poligliconato"
+      ],
+      "atributos": [
+        "composicao"
+      ],
+      "chave": "Ambos são monofilamentares absorvíveis de absorção lenta. Diferem na composição: polidioxanona × ácido glicólico + carbonato de trimetileno."
+    },
+    {
+      "id": "nylon-x-polipropileno",
+      "itens": [
+        "nylon",
+        "polipropileno"
+      ],
+      "atributos": [
+        "composicao",
+        "reacaoTecidual",
+        "indicacoes"
+      ],
+      "chave": "Ambos são sintéticos inabsorvíveis monofilamentares de muita memória. Náilon = poliamida, fio de pele. Prolene = polipropileno, mais inerte, fio das cirurgias vasculares."
+    },
+    {
+      "id": "seda-x-algodao-x-linho",
+      "itens": [
+        "seda",
+        "algodao",
+        "linho"
+      ],
+      "atributos": [
+        "origem"
+      ],
+      "chave": "Os três são naturais, inabsorvíveis e multifilamentares. A seda é ANIMAL; algodão e linho são VEGETAIS. O algodão é o menos resistente dos inabsorvíveis."
+    },
+    {
+      "id": "mayo-x-metzenbaum",
+      "itens": [
+        "tesoura-mayo",
+        "tesoura-metzenbaum"
+      ],
+      "atributos": [
+        "estrutura",
+        "ponta",
+        "funcao"
+      ],
+      "chave": "Mayo é robusta, com lâminas proporcionais ao cabo (tecido denso). Metzenbaum é delicada, com lâminas curtas em relação ao cabo longo (tecido delicado).",
+      "imagemComparacao": "img/instr/metzenbaum-x-mayo.png",
+      "qualidadeComparacao": "insuficiente"
+    },
+    {
+      "id": "cabo-3-x-4",
+      "itens": [
+        "cabo-bisturi-3",
+        "cabo-bisturi-4"
+      ],
+      "atributos": [
+        "estrutura",
+        "funcao"
+      ],
+      "chave": "Nº 3: mais fino, lâminas pequenas (ex.: 15). Nº 4: mais largo, lâminas grandes (ex.: 23).",
+      "imagemComparacao": "img/instr/cabos-3-4-produto.png",
+      "qualidadeComparacao": "boa"
+    },
+    {
+      "id": "kelly-x-crile",
+      "itens": [
+        "kelly",
+        "crile"
+      ],
+      "atributos": [
+        "serrilha"
+      ],
+      "chave": "Mesmo tamanho e formato. Kelly: ranhuras só até 2/3 da mandíbula. Crile: ranhuras em toda a extensão.",
+      "imagemComparacao": "img/instr/kelly-x-crile.png",
+      "qualidadeComparacao": "boa",
+      "regiaoChave": "mandíbula (a parte perto da articulação)",
+      "notaComparacao": "A legenda do slide não diz qual pinça é qual. Pela serrilha, a de baixo (ranhuras só na parte da ponta) seria a Kelly e a de cima a Crile — a conferir."
+    },
+    {
+      "id": "kelly-x-halsted",
+      "itens": [
+        "kelly",
+        "halsted"
+      ],
+      "atributos": [
+        "estrutura",
+        "ponta",
+        "serrilha",
+        "funcao"
+      ],
+      "chave": "A Halsted (mosquito) é menor, com ponta muito fina e ranhuras até o fim: vasos pequenos. A Kelly é maior, com ranhuras até 2/3.",
+      "imagemComparacao": "img/instr/halsted-x-kelly.png",
+      "qualidadeComparacao": "boa"
+    },
+    {
+      "id": "kelly-x-kocher",
+      "itens": [
+        "kelly",
+        "kocher"
+      ],
+      "atributos": [
+        "dentes",
+        "serrilha",
+        "grupo"
+      ],
+      "chave": "Formato parecido, mas a Kocher tem DENTE DE RATO na ponta (preensão) e ranhuras em toda a extensão."
+    },
+    {
+      "id": "kelly-x-mixter",
+      "itens": [
+        "kelly",
+        "mixter"
+      ],
+      "atributos": [
+        "ponta",
+        "funcao"
+      ],
+      "chave": "A Mixter tem a ponta muito curvada (quase 90°), para vasos profundos."
+    },
+    {
+      "id": "allis-x-babcock",
+      "itens": [
+        "allis",
+        "babcock"
+      ],
+      "atributos": [
+        "ponta",
+        "dentes",
+        "traumatico"
+      ],
+      "chave": "Allis: 'mãozinha' com dentinhos (mais traumática). Babcock: ponta larga e quadrada, vazada, sem dentes (atraumática, alças intestinais)."
+    },
+    {
+      "id": "babcock-x-duval",
+      "itens": [
+        "babcock",
+        "duval"
+      ],
+      "atributos": [
+        "ponta"
+      ],
+      "chave": "Ambas são atraumáticas e fenestradas. Babcock: ponta quadrada. Duval: ponta grande e TRIANGULAR.",
+      "alerta": "Sem foto da Duval: comparação só textual."
+    },
+    {
+      "id": "anatomica-x-dente-de-rato",
+      "itens": [
+        "pinca-anatomica",
+        "dente-de-rato"
+      ],
+      "atributos": [
+        "dentes",
+        "traumatico",
+        "usos"
+      ],
+      "chave": "Mesma pinça de mola; a dente de rato tem DENTE na ponta (pele), a anatômica não (fio, tecidos delicados).",
+      "imagemComparacao": null
+    },
+    {
+      "id": "adson-com-x-sem-dentes",
+      "itens": [
+        "adson-com-dentes",
+        "adson-sem-dentes"
+      ],
+      "atributos": [
+        "dentes",
+        "serrilha",
+        "traumatico"
+      ],
+      "chave": "Mesmo formato (corpo largo, ponta fina). Com dentes: dente de rato na ponta. Sem dentes: ponta serrilhada."
+    },
+    {
+      "id": "mayo-hegar-x-mathieu",
+      "itens": [
+        "mayo-hegar",
+        "mathieu"
+      ],
+      "atributos": [
+        "cabo",
+        "estrutura"
+      ],
+      "chave": "A ponta é igual (sulco central e ranhuras cruzadas). O cabo diferencia: Mayo-Hegar tem argolas (tesoura); Mathieu tem cabo de pinça com mola, segurado na palma."
+    },
+    {
+      "id": "mayo-hegar-x-kelly",
+      "itens": [
+        "mayo-hegar",
+        "kelly"
+      ],
+      "atributos": [
+        "grupo",
+        "ponta",
+        "serrilha"
+      ],
+      "chave": "Ambos têm argolas e cremalheira. O porta-agulha tem ponta CURTA e grossa com ranhuras cruzadas; a Kelly tem ponta mais longa com ranhuras transversais."
+    },
+    {
+      "id": "dinamicos-x-autoestaticos",
+      "itens": [
+        "farabeuf",
+        "doyen",
+        "maleavel",
+        "finochietto",
+        "gosset"
+      ],
+      "atributos": [
+        "afastadorTipo"
+      ],
+      "chave": "Dinâmicos são segurados por alguém (Farabeuf, Doyen, maleável). Autoestáticos ficam abertos sozinhos (Finochietto: barra reta dentada; Gosset: valvas curvas)."
+    },
+    {
+      "id": "farabeuf-x-doyen",
+      "itens": [
+        "farabeuf",
+        "doyen"
+      ],
+      "atributos": [
+        "estrutura"
+      ],
+      "chave": "Farabeuf: peça única em colchete [, em par. Doyen: pegador e uma lâmina larga a 90°."
+    },
+    {
+      "id": "finochietto-x-gosset",
+      "itens": [
+        "finochietto",
+        "gosset"
+      ],
+      "atributos": [
+        "estrutura",
+        "usos"
+      ],
+      "chave": "Finochietto: barra RETA dentada com manivela (tórax). Gosset: valvas CURVAS em barras paralelas (abdome)."
+    },
+    {
+      "id": "backhaus-x-pozzi",
+      "itens": [
+        "backhaus",
+        "pozzi"
+      ],
+      "atributos": [
+        "funcao",
+        "estrutura"
+      ],
+      "chave": "Ambas têm pontas em garra. Backhaus é curta e prende os campos; Pozzi é longa e segura o colo do útero.",
+      "alerta": "Pozzi sem foto e ausente dos materiais."
+    }
+  ]
+}
