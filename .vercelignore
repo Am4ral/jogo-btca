@@ -1,0 +1,9 @@
+# nunca enviar para a Vercel os materiais originais nem o que foi extraído deles
+*.pdf
+extracted/
+node_modules/
+app/dist/
+revisao-conteudo.html
+.claude/
+.env*
+.vercel/

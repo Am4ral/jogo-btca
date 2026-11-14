@@ -16,6 +16,8 @@ npm --prefix app install
 npm --prefix app run dev
 ```
 
+Endereço publicado: **https://jogo-btca.vercel.app**
+
 Abra `http://localhost:5173`. Para testar no iPad na mesma rede Wi‑Fi, rode `npm --prefix app run dev -- --host` e abra o endereço de rede que aparecer.
 
 ## Gerar a versão para publicar
@@ -24,7 +26,7 @@ Abra `http://localhost:5173`. Para testar no iPad na mesma rede Wi‑Fi, rode `n
 npm --prefix app run build
 ```
 
-O site é publicado na **Vercel**: o arquivo `vercel.json` já diz como instalar, validar o conteúdo, gerar o site e de qual pasta servir (`app/dist`). Com o repositório ligado à Vercel, cada envio para a branch `main` publica uma nova versão. No iPad, abra o site no Safari e use Compartilhar → Adicionar à Tela de Início para que o progresso não seja apagado.
+O site é publicado na **Vercel**: o arquivo `app/vercel.json` (o projeto na Vercel usa a pasta `app` como raiz) já diz como instalar, validar o conteúdo, gerar o site e de qual pasta servir (`dist`). Com o repositório ligado à Vercel, cada envio para a branch `main` publica uma nova versão. No iPad, abra o site no Safari e use Compartilhar → Adicionar à Tela de Início para que o progresso não seja apagado.
 
 ## Conferir o conteúdo
 

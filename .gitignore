@@ -12,3 +12,6 @@ revisao-conteudo.html
 .DS_Store
 Thumbs.db
 .vercel/
+
+.vercel
+.env*
