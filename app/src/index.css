@@ -432,3 +432,14 @@ main { padding-bottom: max(96px, calc(env(safe-area-inset-bottom) + 72px)); }
 .acoes.fixas { bottom: max(12px, env(safe-area-inset-bottom)); }
 .boas-vindas { border-color: var(--pri); }
 .boas-vindas ol { padding-left: 20px; display: grid; gap: 6px; }
+
+/* jogo da memória: cartas escolhidas ficam à mostra até a validação */
+.mcarta.selecionada .mcarta-frente { border-color: var(--pri); box-shadow: 0 0 0 3px var(--pri-suave); }
+.mcarta.errada .mcarta-frente { border-color: var(--nao); box-shadow: 0 0 0 3px var(--nao-bg); }
+@media (prefers-reduced-motion: no-preference) { .mcarta.errada .mcarta-frente { animation: tremer .38s ease-in-out; } }
+.memoria { max-width: 760px; }
+.memoria-flutuante { position: fixed; left: 50%; transform: translateX(-50%); bottom: max(12px, env(safe-area-inset-bottom)); width: min(720px, calc(100% - 24px)); padding: 10px 12px; border-radius: 18px; background: var(--card); border: 1px solid var(--line); box-shadow: 0 8px 28px rgb(0 0 0 / 25%); z-index: 10; display: grid; gap: 8px; max-height: 45vh; overflow: auto; }
+.memoria-flutuante .acoes { margin: 0; justify-content: center; }
+.memoria-flutuante .explicacao { margin: 0; }
+.memoria { margin-bottom: 140px; }
+.placar-memoria { margin: 0; text-align: center; }
