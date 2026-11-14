@@ -24,7 +24,7 @@ Abra `http://localhost:5173`. Para testar no iPad na mesma rede Wi‑Fi, rode `n
 npm --prefix app run build
 ```
 
-A pasta `app/dist/` pode ser hospedada em qualquer serviço estático (GitHub Pages, Netlify). No iPad, abra o site no Safari e use Compartilhar → Adicionar à Tela de Início para que o progresso não seja apagado.
+O site é publicado na **Vercel**: o arquivo `vercel.json` já diz como instalar, validar o conteúdo, gerar o site e de qual pasta servir (`app/dist`). Com o repositório ligado à Vercel, cada envio para a branch `main` publica uma nova versão. No iPad, abra o site no Safari e use Compartilhar → Adicionar à Tela de Início para que o progresso não seja apagado.
 
 ## Conferir o conteúdo
 

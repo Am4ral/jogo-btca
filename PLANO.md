@@ -24,7 +24,7 @@ O visual realista vem da direção de arte: fundo de campo cirúrgico verde, ban
 - **dnd-kit** para arrastar etiquetas (Monte a ficha) e, depois, para a Mesa cirúrgica
 - **vite-plugin-pwa**: instalação no iPad, uso offline, ícone na tela inicial
 - **Vitest** para testes de lógica e, principalmente, **testes de validação do conteúdo** (seção 9)
-- Hospedagem estática gratuita (GitHub Pages, Netlify ou Vercel)
+- Hospedagem estática na Vercel
 
 **Aviso importante sobre o iPad:** o Safari pode apagar o `localStorage` de sites não visitados há 7 dias. Por isso:
 1. Orientar a instalação como PWA (Compartilhar → Adicionar à Tela de Início), que não sofre esse apagamento
@@ -311,4 +311,4 @@ M1 e M2 juntos já entregam um material de estudo utilizável, e cada marco segu
 1. **Banco de provas**: não está na pasta. Sem ele, a prioridade por frequência fica neutra. Pode enviar?
 2. **Classificações divergentes** (aço, pinças anatômica/dente de rato, Mixter): seguir a classificação dos slides da disciplina como resposta principal e mostrar a alternativa como nota? (Sugestão: sim.)
 3. **Qualidade das fotos**: só será conhecida em M1. Itens sem foto boa terão modos visuais limitados e aviso explícito.
-4. **Hospedagem**: GitHub Pages (gratuito, precisa de conta GitHub) ou Netlify, ou rodar só localmente no Mac?
+4. **Hospedagem**: decidido — Vercel.
